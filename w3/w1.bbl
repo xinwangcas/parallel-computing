@@ -1,0 +1,26 @@
+\begin{thebibliography}{1}
+
+\bibitem{adve1996shared}
+Sarita~V Adve and Kourosh Gharachorloo.
+\newblock Shared memory consistency models: A tutorial.
+\newblock {\em computer}, 29(12):66--76, 1996.
+
+\bibitem{blundell2006subtleties}
+Colin Blundell, E~Christopher Lewis, and Milo~MK Martin.
+\newblock Subtleties of transactional memory atomicity semantics.
+\newblock {\em Computer Architecture Letters}, 5(2):17--17, 2006.
+
+\bibitem{boehm2008foundations}
+Hans-J Boehm and Sarita~V Adve.
+\newblock Foundations of the c++ concurrency memory model.
+\newblock In {\em ACM SIGPLAN Notices}, volume~43, pages 68--78. ACM, 2008.
+
+\bibitem{hammond2004transactional}
+Lance Hammond, Vicky Wong, Mike Chen, Brian~D Carlstrom, John~D Davis, Ben
+  Hertzberg, Manohar~K Prabhu, Honggo Wijaya, Christos Kozyrakis, and Kunle
+  Olukotun.
+\newblock Transactional memory coherence and consistency.
+\newblock In {\em ACM SIGARCH Computer Architecture News}, volume~32, page 102.
+  IEEE Computer Society, 2004.
+
+\end{thebibliography}

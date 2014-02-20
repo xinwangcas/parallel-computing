@@ -1,0 +1,61 @@
+%
+%  Origin:  Lehigh CSE Department
+%  Course:  CSE 375/475
+%  Date:    2013-09-01
+%  Version: 1
+%
+%
+%  Description: a basic LaTeX document.  You should use the accompanying
+%  makefile to produce a pdf from this source file.  This file is formatted
+%  such that as long as the Bibliography is not on the first page, students
+%  can be sure that they have produced a sufficient volume of text.  Note
+%  that volume is not the basis for a grade, merely a heuristic for ensuring
+%  that the writing is not overly cursory
+%
+
+%
+% Configure a basic LaTeX document with 10pt font and reasonable margins
+%
+\documentclass[10pt, letterpaper]{article}
+\usepackage{fullpage}
+\pdfpagewidth=8.5in
+\pdfpageheight=11in
+
+%
+% Load some useful packages... note that there are many, many, many
+% packages... this is just the tip of the iceberg.
+%
+\usepackage{verbatim, cite, paralist}
+
+%
+% Set up a title
+%
+\title{Critique for Capriccio: Scalable Threads for Internet Services}
+\author{Xin Wang}
+\date{} % (empty date)
+
+% start the document, make the title
+\begin{document}
+\maketitle
+
+\section{Summary}
+The paper "Capriccio: Scalable Threads for Internet Services"\cite{herlihy1990linearizability} presents a
+scalable thread package on high-concurrency servers in order to satisfy the increasing scalability demands.
+Current comodity hardware has enabled servers to handle tons of simultaneous connections while current software
+can hardly
+achieve the same goal without significant performance degradation. 
+
+\section{Positive reactions}
+servers, linearizability provides a nonreplicated servers' illusion for the clients\cite{guerraoui1997software}.
+
+\section{Negative reactions}
+conditions. The proposal is provided in reference\cite{Flanagan:2004:ADA:982962.964023}, yet the implementation
+
+\section{Extension proposal}
+in\cite{Attiya:1994:SCV:176575.176576}, in
+
+\section{Conclusions}
+
+\bibliographystyle{plain}
+\bibliography{cse375}
+\end{document}

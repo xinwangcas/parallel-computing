@@ -1,0 +1,108 @@
+Verification: Passed
+csv, R=0, d=1, p=1, m=16, ops=34982, time=1639296410, throughput=21339
+Verification: Passed
+csv, R=0, d=1, p=2, m=16, ops=17791, time=1000404186, throughput=17783
+Verification: Passed
+csv, R=0, d=1, p=4, m=16, ops=21274, time=1002176831, throughput=21227
+Verification: Passed
+csv, R=0, d=1, p=6, m=16, ops=19911, time=1000368082, throughput=19903
+Verification: Passed
+csv, R=0, d=1, p=8, m=16, ops=21260, time=1001188027, throughput=21234
+Verification: Passed
+csv, R=0, d=1, p=10, m=16, ops=21888, time=1001682549, throughput=21851
+Verification: Passed
+csv, R=0, d=1, p=1, m=64, ops=30789, time=1334738744, throughput=23067
+Verification: Passed
+csv, R=0, d=1, p=2, m=64, ops=26198, time=1000219357, throughput=26192
+Verification: Passed
+csv, R=0, d=1, p=4, m=64, ops=20975, time=1000509293, throughput=20964
+Verification: Passed
+csv, R=0, d=1, p=6, m=64, ops=18219, time=1000685522, throughput=18206
+Verification: Passed
+csv, R=0, d=1, p=8, m=64, ops=25127, time=1001550930, throughput=25088
+Verification: Passed
+csv, R=0, d=1, p=10, m=64, ops=22453, time=1001739686, throughput=22414
+Verification: Passed
+csv, R=0, d=1, p=1, m=256, ops=36560, time=1881596711, throughput=19430
+Verification: Passed
+csv, R=0, d=1, p=2, m=256, ops=19599, time=1000214500, throughput=19594
+Verification: Passed
+csv, R=0, d=1, p=4, m=256, ops=21472, time=1000299640, throughput=21465
+Verification: Passed
+csv, R=0, d=1, p=6, m=256, ops=18907, time=1000721507, throughput=18893
+Verification: Passed
+csv, R=0, d=1, p=8, m=256, ops=19089, time=1153630261, throughput=16546
+Verification: Passed
+csv, R=0, d=1, p=10, m=256, ops=19685, time=1001492591, throughput=19655
+Verification: Passed
+csv, R=33, d=1, p=1, m=16, ops=52343, time=1000229036, throughput=52331
+Verification: Passed
+csv, R=33, d=1, p=2, m=16, ops=37843, time=1000116964, throughput=37838
+Verification: Passed
+csv, R=33, d=1, p=4, m=16, ops=33347, time=1053133068, throughput=31664
+Verification: Passed
+csv, R=33, d=1, p=6, m=16, ops=26420, time=1002379042, throughput=26357
+Verification: Passed
+csv, R=33, d=1, p=8, m=16, ops=25752, time=1101084344, throughput=23387
+Verification: Passed
+csv, R=33, d=1, p=10, m=16, ops=31195, time=1235102956, throughput=25257
+Verification: Passed
+csv, R=33, d=1, p=1, m=64, ops=46062, time=1403252840, throughput=32825
+Verification: Passed
+csv, R=33, d=1, p=2, m=64, ops=40698, time=1000068081, throughput=40695
+Verification: Passed
+csv, R=33, d=1, p=4, m=64, ops=21954, time=1000804055, throughput=21936
+Verification: Passed
+csv, R=33, d=1, p=6, m=64, ops=24407, time=1146989473, throughput=21279
+Verification: Passed
+csv, R=33, d=1, p=8, m=64, ops=25121, time=1001225012, throughput=25090
+Verification: Passed
+csv, R=33, d=1, p=10, m=64, ops=26981, time=1161320487, throughput=23233
+Verification: Passed
+csv, R=33, d=1, p=1, m=256, ops=39649, time=1045464402, throughput=37924
+Verification: Passed
+csv, R=33, d=1, p=2, m=256, ops=23934, time=1000697847, throughput=23917
+Verification: Passed
+csv, R=33, d=1, p=4, m=256, ops=27938, time=1001307610, throughput=27901
+Verification: Passed
+csv, R=33, d=1, p=6, m=256, ops=26219, time=1001723043, throughput=26173
+Verification: Passed
+csv, R=33, d=1, p=8, m=256, ops=23556, time=1002493097, throughput=23497
+Verification: Passed
+csv, R=33, d=1, p=10, m=256, ops=26264, time=1004782355, throughput=26138
+Verification: Passed
+csv, R=100, d=1, p=1, m=16, ops=1852637, time=999992626, throughput=1852650
+Verification: Passed
+csv, R=100, d=1, p=2, m=16, ops=3318054, time=1000016197, throughput=3318000
+Verification: Passed
+csv, R=100, d=1, p=4, m=16, ops=6188212, time=1000012574, throughput=6188134
+Verification: Passed
+csv, R=100, d=1, p=6, m=16, ops=6474139, time=1000003403, throughput=6474116
+Verification: Passed
+csv, R=100, d=1, p=8, m=16, ops=6775839, time=1000002036, throughput=6775825
+Verification: Passed
+csv, R=100, d=1, p=10, m=16, ops=6755448, time=1000003213, throughput=6755426
+Verification: Passed
+csv, R=100, d=1, p=1, m=64, ops=1863358, time=1000001373, throughput=1863355
+Verification: Passed
+csv, R=100, d=1, p=2, m=64, ops=3266613, time=1000000626, throughput=3266610
+Verification: Passed
+csv, R=100, d=1, p=4, m=64, ops=6246471, time=1000001011, throughput=6246464
+Verification: Passed
+csv, R=100, d=1, p=6, m=64, ops=6457371, time=1000000941, throughput=6457364
+Verification: Passed
+csv, R=100, d=1, p=8, m=64, ops=6752068, time=1000001041, throughput=6752060
+Verification: Passed
+csv, R=100, d=1, p=10, m=64, ops=6657313, time=1000027290, throughput=6657131
+Verification: Passed
+csv, R=100, d=1, p=1, m=256, ops=1833059, time=1000001414, throughput=1833056
+Verification: Passed
+csv, R=100, d=1, p=2, m=256, ops=3303330, time=1000000636, throughput=3303327
+Verification: Passed
+csv, R=100, d=1, p=4, m=256, ops=6225567, time=1000000849, throughput=6225561
+Verification: Passed
+csv, R=100, d=1, p=6, m=256, ops=6449317, time=1000000970, throughput=6449310
+Verification: Passed
+csv, R=100, d=1, p=8, m=256, ops=6543956, time=1000002650, throughput=6543938
+Verification: Passed
+csv, R=100, d=1, p=10, m=256, ops=6328997, time=1000003908, throughput=6328972

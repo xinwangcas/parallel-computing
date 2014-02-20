@@ -1,0 +1,53 @@
+lock	avg. throughput
+01	2708399
+02	1114815
+03	3425286
+04	10870839
+05	7248350
+06	7869473
+
+MY EXPERIENCE:
+Task1: I added std::lock_guard to lock each operation of nodes such as add,
+delete and lookup. The implementation is simple since the lock_guard
+destructed and the mutex is released when control leaves the scope where it is
+created.
+Task2: I added shared mutex to lock critical regions of read operations of
+nodes such as lookup, and I use common mutex to lock critical regions of write operations
+of nodes such as remove and add.
+Task3: I used while loop and try_lock() to implement spin lock. This kind of lock returns
+immediately and keeps threads in busy waiting status until enter critical region.
+Task4: The test_and_set lock is atomic, yet it requires a read operation and a
+write operation at the same time, which is unecessary when the thread is
+busy waiting outside of the critical region. To use a state to check first whether
+critical region is available reduces the unecessary write operations. This
+implementation has better performance when we add exponential backoff so that
+threads outside of the critical region try the lock with longer and longer
+interval instead of try continuously.
+
+Task5: 
+I used spin lock to implement hand-over-hand fine-grained lock. Except for the
+initial head sentinel node, acquire the lock for a node only while holding the
+lock for its predecessor.
+
+Task6:
+I implemented the lazy synchronization. lookup operation needs only one
+wait-free traversal. add operation traverses the list, locks the target's
+predecessor, and inserts the node. The remove method is lazy, first it marks
+the target node, logically remove it and then redirect the predecessor's next
+field and physically remove it. I did garbage collection partially with a
+thread safe object pool added.
+
+The test parameters are shown in "test.sh". The results of the six kinds of
+locks are shown in the six "*result.txt" files. The average performance is
+shown above in this table. My observation is fine-grained locks have better
+performance than coarse-grained locks. Lazy optimistic synchronization
+has good throughput average, however, its performance is not as stable as
+the other locks. The test_and_test_and_set spinlock also has good performance
+because of the reduction of unnecessary read-write operations of test_and_set.
+The hand-over-hand also has good performance compared with the other three
+coarse-grained locks. When lookup ratio is large(say, more than 100), lazylist is the
+best one. When number of threads is large, the hand-over-hand lock and
+test_and_test_and_set lock have the best average throughput, while the latter
+one has lower variance. When thread number is small, test_and_test_and_set has
+the best performance. When m changes, the hand-over-hand changes more
+obviously. 

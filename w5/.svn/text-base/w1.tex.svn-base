@@ -1,0 +1,98 @@
+%
+%  Origin:  Lehigh CSE Department
+%  Course:  CSE 375/475
+%  Date:    2013-09-01
+%  Version: 1
+%
+%
+%  Description: a basic LaTeX document.  You should use the accompanying
+%  makefile to produce a pdf from this source file.  This file is formatted
+%  such that as long as the Bibliography is not on the first page, students
+%  can be sure that they have produced a sufficient volume of text.  Note
+%  that volume is not the basis for a grade, merely a heuristic for ensuring
+%  that the writing is not overly cursory
+%
+
+%
+% Configure a basic LaTeX document with 10pt font and reasonable margins
+%
+\documentclass[10pt, letterpaper]{article}
+\usepackage{fullpage}
+\pdfpagewidth=8.5in
+\pdfpageheight=11in
+
+%
+% Load some useful packages... note that there are many, many, many
+% packages... this is just the tip of the iceberg.
+%
+\usepackage{verbatim, cite, paralist}
+
+%
+% Set up a title
+%
+\title{Critique for Linearizability: A correctness Condition for Concurrent Objects}
+\author{Xin Wang}
+\date{} % (empty date)
+
+% start the document, make the title
+\begin{document}
+\maketitle
+
+\section{Summary}
+The paper "Linearizability: A correctness Condition for Concurrent Objects"\cite{herlihy1990linearizability} defines the
+concept of linearizability which is a correctness condition for linearizable objects and compares it with other
+correctness conditions. 
+
+History is a finite sequence which consists of operation method invocations and responses. History is used to
+model the execution of a concurrent system. A sebsequence of the events in a history H is called a subhistory.
+If a history is totally ordered and no operation intervals overlap, then the history is considered to be
+sequential. Otherwise, the history is considered concurrent. The linearization of a history includes two steps.
+In first step, incomplete invocations with no matching reponse are completed or deleted. In second step,
+invocations and responses are ordered again to ensure the result is legal and consistent, which means that two
+ordered operations in sequential history are also ordered operations in linearization.
+
+Linearizability has the properties of locality and non-blocking. Locality means that system is linearizable if
+and only if all individual objects are linearizable. With this property, concurrent systems can be designed and
+implemented in modularized method. It also enables linearizable objects be independent from each other.
+Non-blocking property means that one method is not forced to wait to synchronize with one another. However,
+blocking can exist in conditions where programmers have planned. 
+
+Abstraction function and an interpretation of representation invariant are used to prove the correctness of
+linearization. A queue example is used for proof of correctness and critical region is considered. With an
+extended representation, the authors provide us with a continually defined abstraction function which remains
+the same as the original abstraction function with quiescent object. In this way, proving the correctness of the
+extended representation natually leads to proof of correctness of the original one.
+
+To sum up, linearizability is beneficial for specifying, implementing and verifying concurrent objects.
+
+\section{Positive reactions}
+Linearizability is an essential and basic correctness requirement for a concurrent implementation in software
+transaction memory\cite{shavit1997software}. By showing that in multiprocessor systems, processes can perform
+the same transaction and behave as if only one process is running, linearizability of transactioin memory can be
+proved. It is so important that programmers must ensure that after an object has been released, subsequent
+changes made by other transactions do not violate the linearizability of the former transaction. Moreover, in replicated
+servers, linearizability provides a nonreplicated servers' illusion for the clients\cite{guerraoui1997software}.
+
+\section{Negative reactions}
+The verification of linearizability of an object is very important and wide spread, yet to some extent complex in the way that it requires full program
+verification. To simplify verification of linearizability can improve the performance. One possible
+simplification method is to use atomicity to develop lightweight checking tools for related correctness
+conditions. The proposal is provided in reference\cite{Flanagan:2004:ADA:982962.964023}, yet the implementation
+has not been realized.
+
+\section{Extension proposal}
+The implementation, analysis and optimization all require linearizability as a standard. Considering the complexity
+of verification of linearizability, find alternatives such as lightweight checking tools to ensure atomicity
+maybe helpful. According to the work that compares sequential consistency and linearizability as
+in\cite{Attiya:1994:SCV:176575.176576}, in
+certain circumstances, supporting linearizability may be more costly than supporting sequential consistency.
+Future research about more detailed comparison can help to make a wise choice between the two.
+
+\section{Conclusions}
+To sum up, this paper proposes a good correctness condition for concurrent objects. Much following work has
+demonstrated the effectiveness of linearizability and it also inspires some innovative ideas such as making a choice
+between sequential consistency and linearizability in different conditions for better performance.
+
+\bibliographystyle{plain}
+\bibliography{cse375}
+\end{document}

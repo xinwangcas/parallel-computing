@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99c (Web2C 7.5.6)
+The top-level auxiliary file: w1.aux
+The style file: plain.bst
+Database file #1: cse375.bib
+Warning--can't use both volume and number fields in boehm2008foundations
+Warning--can't use both volume and number fields in hammond2004transactional
+You've used 4 entries,
+            2118 wiz_defined-function locations,
+            530 strings with 4745 characters,
+and the built_in function-call counts, 1754 in all, are:
+= -- 171
+> -- 97
+< -- 4
++ -- 38
+- -- 34
+* -- 140
+:= -- 286
+add.period$ -- 14
+call.type$ -- 4
+change.case$ -- 29
+chr.to.int$ -- 0
+cite$ -- 6
+duplicate$ -- 64
+empty$ -- 121
+format.name$ -- 34
+if$ -- 367
+int.to.chr$ -- 0
+int.to.str$ -- 4
+missing$ -- 4
+newline$ -- 23
+num.names$ -- 8
+pop$ -- 28
+preamble$ -- 1
+purify$ -- 25
+quote$ -- 0
+skip$ -- 47
+stack$ -- 0
+substring$ -- 88
+swap$ -- 24
+text.length$ -- 4
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 16
+warning$ -- 2
+while$ -- 16
+width$ -- 5
+write$ -- 50
+(There were 2 warnings)

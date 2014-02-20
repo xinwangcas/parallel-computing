@@ -1,0 +1,26 @@
+\begin{thebibliography}{1}
+
+\bibitem{hudson2006mcrt}
+Richard~L Hudson, Bratin Saha, Ali-Reza Adl-Tabatabai, and Benjamin~C
+  Hertzberg.
+\newblock Mcrt-malloc: a scalable transactional memory allocator.
+\newblock In {\em Proceedings of the 5th international symposium on Memory
+  management}, pages 74--83. ACM, 2006.
+
+\bibitem{olszewski2007judostm}
+Marek Olszewski, Jeremy Cutler, and J~Gregory Steffan.
+\newblock Judostm: A dynamic binary-rewriting approach to software
+  transactional memory.
+\newblock In {\em Proceedings of the 16th International Conference on Parallel
+  Architecture and Compilation Techniques}, pages 365--375. IEEE Computer
+  Society, 2007.
+
+\bibitem{saha2006mcrt}
+Bratin Saha, Ali-Reza Adl-Tabatabai, Richard~L Hudson, Chi~Cao Minh, and
+  Benjamin Hertzberg.
+\newblock Mcrt-stm: a high performance software transactional memory system for
+  a multi-core runtime.
+\newblock In {\em Proceedings of the eleventh ACM SIGPLAN symposium on
+  Principles and practice of parallel programming}, pages 187--197. ACM, 2006.
+
+\end{thebibliography}

@@ -1,0 +1,37 @@
+\begin{thebibliography}{1}
+
+\bibitem{Chang:2008:BDS:1365815.1365816}
+Fay Chang, Jeffrey Dean, Sanjay Ghemawat, Wilson~C. Hsieh, Deborah~A. Wallach,
+  Mike Burrows, Tushar Chandra, Andrew Fikes, and Robert~E. Gruber.
+\newblock Bigtable: A distributed storage system for structured data.
+\newblock {\em ACM Trans. Comput. Syst.}, 26(2):4:1--4:26, June 2008.
+
+\bibitem{ghemawat2003google}
+Sanjay Ghemawat, Howard Gobioff, and Shun-Tak Leung.
+\newblock The google file system.
+\newblock In {\em ACM SIGOPS Operating Systems Review}, volume~37, pages
+  29--43. ACM, 2003.
+
+\bibitem{guo2009bcube}
+Chuanxiong Guo, Guohan Lu, Dan Li, Haitao Wu, Xuan Zhang, Yunfeng Shi, Chen
+  Tian, Yongguang Zhang, and Songwu Lu.
+\newblock Bcube: a high performance, server-centric network architecture for
+  modular data centers.
+\newblock {\em ACM SIGCOMM Computer Communication Review}, 39(4):63--74, 2009.
+
+\bibitem{Guo:2008:DSF:1402958.1402968}
+Chuanxiong Guo, Haitao Wu, Kun Tan, Lei Shi, Yongguang Zhang, and Songwu Lu.
+\newblock Dcell: a scalable and fault-tolerant network structure for data
+  centers.
+\newblock In {\em Proceedings of the ACM SIGCOMM 2008 conference on Data
+  communication}, SIGCOMM '08, pages 75--86, New York, NY, USA, 2008. ACM.
+
+\bibitem{Yang:2007:MSR:1247480.1247602}
+Hung-chih Yang, Ali Dasdan, Ruey-Lung Hsiao, and D.~Stott Parker.
+\newblock Map-reduce-merge: simplified relational data processing on large
+  clusters.
+\newblock In {\em Proceedings of the 2007 ACM SIGMOD international conference
+  on Management of data}, SIGMOD '07, pages 1029--1040, New York, NY, USA,
+  2007. ACM.
+
+\end{thebibliography}

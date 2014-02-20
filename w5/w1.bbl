@@ -1,0 +1,14 @@
+\begin{thebibliography}{1}
+
+\bibitem{seltzer2005performance}
+Margo Seltzer, Christopher Small, and Daniel Nussbaum.
+\newblock Performance of multithreaded chip multiprocessors and implications
+  for operating system design, alexandra fedorova.
+\newblock 2005.
+
+\bibitem{von2003capriccio}
+Rob Von~Behren, Jeremy Condit, Feng Zhou, George~C Necula, and Eric Brewer.
+\newblock Capriccio: scalable threads for internet services.
+\newblock {\em ACM SIGOPS Operating Systems Review}, 37(5):268--281, 2003.
+
+\end{thebibliography}

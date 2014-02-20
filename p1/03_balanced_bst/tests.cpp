@@ -1,0 +1,147 @@
+/**
+ *  Origin:  Lehigh CSE Department
+ *  Course:  CSE 375/475
+ *  Date:    2013-08-27
+ *  Version: 1
+ *
+ *  Description: This file implements a function that should be able to use the
+ *  configuration information to drive tests that evaluate the correctness
+ *  and performance of the map_t object.
+ *
+ *  This should be the focal point for student efforts to test their
+ *  programs.  See below for suggestions.
+ */
+
+#include <iostream>
+
+#include "config_t.hpp"
+#include "tests.hpp"
+#include "map_t.hpp"
+
+using std::cout;
+using std::endl;
+
+/**
+ *  For now, we just populate the data structure, and then print it out and
+ *  sum its keys.
+ *
+ *  TODO: students should extend this function at least in all of the ways
+ *        discussed below.
+ */
+void run_custom_tests(config_t& cfg)
+{
+    map_t<int, int> mc;
+
+    // populate with even numbers between 0 and cfg.iters
+    //
+    // NB: this is a *bad* strategy for populating a tree, as it will not be
+    //     balanced.  Use more randomization, or else implement a balanced
+    //     tree.
+    std::function<void(pair<int, int>)> f = [](pair<int,int> pr){cout << pr.first << endl;};
+    for (int i = 0; i < cfg.iters; i+=2)
+    {
+	    mc.insert(i, rand_r(&cfg.seed));
+	    cout << "insert " << i <<" inorder:" <<endl;
+	    mc.in_order(f);
+	    cout << "insert " << i <<" preorder:" <<endl;
+	    mc.pre_order(f);
+    }
+    for (int i = 1; i < cfg.iters; i+=2)
+    {
+	    mc.insert(i, rand_r(&cfg.seed));
+	    cout << "insert " << i <<" inorder:" <<endl;
+	    mc.in_order(f);
+	    cout << "insert " << i <<" preorder:" <<endl;
+	    mc.pre_order(f);
+    }
+
+
+    // TODO: Use a lambda to print every key, via in-order traversal, and get
+    //       rid of the printer function
+//	std::function<void(pair<int, int>)> f = [](pair<int,int> pr){cout << pr.first << endl;};
+	cout << "****************************************************"<< endl;
+	cout << "print all keys in sorted order:" << endl;
+	mc.in_order(f);
+	cout << "****************************************************"<< endl;
+
+    // TODO: sum the keys without global variables or the sum_keys function
+	int sum = 0;
+	int cal = 0;//calculate no. of pairs
+	std::function<void(pair<int, int>)> m = [&sum, &cal](pair<int, int> p1){sum = sum + p1.first;cal = cal + 1;};
+    	mc.in_order(m);
+	cout << "sum = " << sum << endl;
+
+    // TODO: average the keys
+	int avg = 0;
+    	avg = sum/cal;
+	cout << "avg = " << avg << endl;
+    // TODO: develop tests to ensure that insert, update, remove, and lookup
+    //       work properly
+	
+	std::function<void(pair<int, int>)> fn = [](pair<int,int> prn){cout << prn.first <<" "<<prn.second<< endl;};
+	mc.in_order(fn);
+
+	cout << "****************************************************"<< endl;
+
+	for (int k = 20 ; k < 40 ; k += 2)
+	{
+		cout << "insert " << k << " success or not:" << mc.insert (k, 30) << endl;
+	}
+	cout << "Pre-order result(with keys & values): " << endl;
+	mc.pre_order(fn);
+	cout << "In-order result(with keys & values): " << endl;
+	mc.in_order(fn);
+	cout << "Level-order result:" << endl;
+	mc.level_order();
+
+	cout << "****************************************************"<< endl;
+
+	for (int k = 24 ; k < 34 ; k += 2)
+	{
+		cout << "update " << k << " success or not:" << mc.update(k, 100) << endl;
+	}
+	mc.in_order(fn);
+	
+	cout << "****************************************************"<< endl;
+
+	for (int k = 20; k < 30 ; k += 4)
+	{
+		cout << "remove " << k << " success or not:" << mc.remove(k) << endl;
+		cout << "Level-order result:" << endl;
+		mc.level_order();
+	}
+	cout << "Pre-order result(with keys & values): " << endl;
+	mc.pre_order(fn);
+	cout << "In-order result(with keys & values): " << endl;
+	mc.in_order(fn);
+	cout << "Level-order result:" << endl;
+	mc.level_order();
+	cout << "****************************************************"<< endl;
+
+	for (int k = 20 ; k < 30 ; k += 2)
+	{
+		cout << "lookup " << k << " success or not:" << mc.lookup(k).second << endl;
+	}
+
+
+	cout << "****************************************************"<< endl;
+	
+	cout << "Pre-order result(with keys): " << endl;
+	mc.pre_order(f);
+	cout << "Pre-order result(with keys & values): " << endl;
+	mc.pre_order(fn);
+	cout << "In-order result(with keys & values): " << endl;
+	mc.in_order(fn);
+	cout << "****************************************************"<< endl;
+	cout << "Level-order result:" << endl;
+	mc.level_order();
+	cout << "****************************************************"<< endl;
+
+    // TODO: print the keys via pre-order traversal
+
+    // TODO: print the tree nicely (i.e., in the shape of a tree)
+
+    // TODO: perform a search of all values to find one with a particular
+    //       value.  This should be done using a struct as the V type, so
+    //       that the lambda checks a member of each V
+}

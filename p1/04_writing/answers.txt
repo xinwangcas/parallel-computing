@@ -1,0 +1,28 @@
+Please use this file to store your answers to the following three questions:
+
+1.  In map_t.cpp, why do we need the line:
+    template class map_t<int, int>;
+    Without this template specialization, type of the template parameters of classes
+    map_t and Node are unknown. How much space should be allocated is also
+    unknown. The object mc in tests.cpp(with int as key type and int as value
+    type) cannot find corresponding class from
+    map_t.cpp.
+
+
+
+
+2.  In p1.cpp, why is the parameter cfg passed by reference?
+    When calling by reference, the address of the object is put on stack,
+    there is only one copy of the data, so
+    that methods can access the original parameter. If the parameter is called
+    by value, a copy of the object is put on the stack, the original parameter
+    and the copy are put on different address. Methods will not
+    change the parameter itself, but change the copy. 
+
+
+
+
+3.  In config_t.hpp, what is the only difference between a struct and a class
+    in C++?
+    The struct members are public by default while class members are private
+    by default.

@@ -1,0 +1,129 @@
+%
+%  Origin:  Lehigh CSE Department
+%  Course:  CSE 375/475
+%  Date:    2013-09-01
+%  Version: 1
+%
+%
+%  Description: a basic LaTeX document.  You should use the accompanying
+%  makefile to produce a pdf from this source file.  This file is formatted
+%  such that as long as the Bibliography is not on the first page, students
+%  can be sure that they have produced a sufficient volume of text.  Note
+%  that volume is not the basis for a grade, merely a heuristic for ensuring
+%  that the writing is not overly cursory
+%
+
+%
+% Configure a basic LaTeX document with 10pt font and reasonable margins
+%
+\documentclass[10pt, letterpaper]{article}
+\usepackage{fullpage}
+\pdfpagewidth=8.5in
+\pdfpageheight=11in
+
+%
+% Load some useful packages... note that there are many, many, many
+% packages... this is just the tip of the iceberg.
+%
+\usepackage{verbatim, cite, paralist}
+
+%
+% Set up a title
+%
+\title{LaTeX Instructions for CSE 375/475}
+\author{Michael Spear}
+\date{} % (empty date)
+
+% start the document, make the title
+\begin{document}
+\maketitle
+
+\section{Introduction}
+Using a pure text format for writing documents makes it much easier to
+version control them.  For that reason, this example document is being
+provided to show some basic features of LaTeX.
+
+\section{Formatting Suggestions}
+\label{sec-formatting}
+Here are some formatting suggestions:
+
+\subsection{Fonts}
+\label{sec-fonts}
+The philosophy in LaTeX is that you shouldn't mess with formatting unless
+absolutely necessary.  While it's fine to put text in \textbf{bold},
+\textit{italics}, and \texttt{code format}, in general you shouldn't mess
+around with font sizes.\footnote{Note that footnotes are automatically in a
+  smaller font.}
+
+\subsection{Verbatim Formatting}
+\label{sec-verb}
+Similar to the HTML \verb|<pre>| tag, you can use in-line verbatim mode or
+the block formatted verbatim mode to format code and other pre-formatted
+text.  Here's an example:
+
+\begin{verbatim}
+for (auto x : myvector) {
+  foo(x);
+}
+\end{verbatim}
+
+\subsection{Lists}
+There are simple list and enumeration modes.  You should never use them,
+because they create unnecessary whitespace.  Instead, use the compact
+variants as shown below:
+
+Things I dislike:
+\begin{compactitem}
+\item Lists
+\item Lame attempts at irony
+\item Using someone else's joke without citation.
+\end{compactitem}
+
+Steps to success:
+\begin{compactenum}
+\item Collect underpants.
+\item ???
+\item Profit.
+\end{compactenum}
+
+\subsection{Citations}
+Citations are very powerful.  Once you put an entry in your .bib file, you
+can use it anywhere, any time, and LaTeX does all the work.  For example,
+note that the first assignment requires us to read a paper by
+Valiant~\cite{valiant-cacm-1990}.
+
+\section{Labels and References}
+\label{sec-labels}
+Every section, subsection, and so forth can be given a label.  This makes it
+easy to get internal references right.  For example, if one were to add more
+sections and subsections, the document would still get references right:
+fonts are discussed in subsection~\ref{sec-fonts}, and verbatim formatting is
+discussed in subsection~\ref{sec-verb}.
+
+\section{Equations}
+LaTeX can do amazing things with equations.  For example, $\forall_{x \in
+  myvector} {ans = \Sigma_{i=1}^{i=72}foo(x,i)}$
+
+\begin{equation}
+\label{eqn-asb}
+\alpha = \sqrt{ \beta }
+\end{equation}
+
+Some people believe that Equation~\ref{eqn-asb} is very useful.  Others
+complain that the indentation of all paragraphs within a section, except for
+the first paragraph, leads to funny-looking text.  It's best to just ignore
+such oddities for the purposes of this class.
+
+%
+% Note: we can pull in more files!
+%
+\input{w1_supp}
+
+\section{Conclusions}
+There are many good tutorials online.  This is meant to show just enough to
+get students started with LaTeX for CSE 375/475.  Hopefully it will be an
+enjoyable tool to learn.
+
+\bibliographystyle{plain}
+\bibliography{cse375}
+\end{document}

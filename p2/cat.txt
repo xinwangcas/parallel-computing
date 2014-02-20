@@ -1,0 +1,2 @@
+# name, seed, gridsize, verbose, iters
+no_name, 0, 1026, 0, 1024

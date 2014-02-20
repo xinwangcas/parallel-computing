@@ -1,0 +1,18 @@
+\relax 
+\citation{herlihy1990linearizability}
+\citation{shavit1997software}
+\citation{guerraoui1997software}
+\citation{Flanagan:2004:ADA:982962.964023}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Summary}{1}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Positive reactions}{1}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Negative reactions}{1}}
+\citation{Attiya:1994:SCV:176575.176576}
+\bibstyle{plain}
+\bibdata{cse375}
+\bibcite{Attiya:1994:SCV:176575.176576}{1}
+\bibcite{Flanagan:2004:ADA:982962.964023}{2}
+\bibcite{guerraoui1997software}{3}
+\bibcite{herlihy1990linearizability}{4}
+\bibcite{shavit1997software}{5}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Extension proposal}{2}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Conclusions}{2}}

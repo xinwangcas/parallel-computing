@@ -1,0 +1,19 @@
+\begin{thebibliography}{1}
+
+\bibitem{azizoglu2000lower}
+M~Cemil Azizoglu and Omer Egecioglu.
+\newblock Lower bounds on communication loads and optimal placements in torus
+  networks.
+\newblock {\em Computers, IEEE Transactions on}, 49(3):259--266, 2000.
+
+\bibitem{Gerbessiotis96deterministicsorting}
+Alexandros~V. Gerbessiotis and Constantinos~J. Siniolakis.
+\newblock Deterministic sorting and randomized median finding on the bsp model,
+  1996.
+
+\bibitem{valiant-cacm-1990}
+Leslie Valiant.
+\newblock {A Bridging Model for Parallel Computation}.
+\newblock {\em {Communications of the ACM}}, 33(8):103--111, August 1990.
+
+\end{thebibliography}

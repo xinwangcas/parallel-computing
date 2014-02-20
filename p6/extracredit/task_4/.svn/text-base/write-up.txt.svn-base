@@ -1,0 +1,94 @@
+
+This is the write-up for assignment # 6
+
+we designed the workload to constrast the performance of relaxed-transaction key/value store 
+with our atomic key/value store. The workload is in file HashBench.cpp in both
+task_1 and task_3 folders. Briefly speaking, we select 5 random characters from
+printable ASCII character set to construct random strings. and select random
+operations to perform according to the parameter R (i.e,, the read/write ratio).
+These strings are used as keys to be looked up in the hash table or inserted into or
+removed from the hash table.
+
+We use R=34, m=256 to test both implementations on workloads having operations
+1000, 10000 and 100000.
+
+ops = 1000
+
+On sunlab machine mars:
+relaxed-transaction key/value store:
+csv, R=34, p=2, m=256, ops=1000, time=8225499, throughput=121573
+csv, R=34, p=4, m=256, ops=1000, time=29048319, throughput=34425
+csv, R=34, p=8, m=256, ops=1000, time=120328244, throughput=8310
+atomic-transaction key/value store:
+csv, R=34, p=2, m=256, ops=1000, time=12500532, throughput=79996
+csv, R=34, p=4, m=256, ops=1000, time=57816783, throughput=17296
+csv, R=34, p=8, m=256, ops=1000, time=529189920, throughput=1889
+
+On 4pac machine:
+relaxed-transaction key/value store:
+csv, R=34, p=2, m=256, ops=1000, time=12622620, throughput=79222
+csv, R=34, p=4, m=256, ops=1000, time=41939869, throughput=23843
+csv, R=34, p=8, m=256, ops=1000, time=116903284, throughput=8554
+atomic-transaction key/value store:
+csv, R=34, p=2, m=256, ops=1000, time=5729778, throughput=174526
+csv, R=34, p=4, m=256, ops=1000, time=18436443, throughput=54240
+csv, R=34, p=8, m=256, ops=1000, time=91198709, throughput=10965
+
+ops = 10000
+
+On sunlab machine mars:
+relaxed-transaction key/value store:
+csv, R=34, p=2, m=256, ops=10000, time=650039968, throughput=15383
+csv, R=34, p=4, m=256, ops=10000, time=2690583067, throughput=3716
+csv, R=34, p=8, m=256, ops=10000, time=11930264217, throughput=838
+atomic-transaction key/value store:
+csv, R=34, p=2, m=256, ops=10000, time=1363813115, throughput=7332
+csv, R=34, p=4, m=256, ops=10000, time=5672535251, throughput=1762
+csv, R=34, p=8, m=256, ops=10000, time=17865957447, throughput=559
+
+On 4pac machine:
+relaxed-transaction key/value store:
+csv, R=34, p=2, m=256, ops=10000, time=634292343, throughput=15765
+csv, R=34, p=4, m=256, ops=10000, time=2236082618, throughput=4472
+csv, R=34, p=8, m=256, ops=10000, time=6807980717, throughput=1468
+atomic-transaction key/value store:
+csv, R=34, p=2, m=256, ops=10000, time=373410244, throughput=26780
+csv, R=34, p=4, m=256, ops=10000, time=1945438818, throughput=5140
+csv, R=34, p=8, m=256, ops=10000, time=8228653288, throughput=1215
+
+ops = 100000
+
+On sunlab machine mars:
+relaxed-transaction key/value store:
+csv, R=34, p=2, m=256, ops=100000, time=67108990651, throughput=1490
+csv, R=34, p=4, m=256, ops=100000, time=339618176113, throughput=294
+csv, R=34, p=8, m=256, ops=100000, time=1509636767744, throughput=66
+atomic-transaction key/value store:
+csv, R=34, p=2, m=256, ops=100000, time=190637877442, throughput=524
+csv, R=34, p=4, m=256, ops=100000, time=676776324241, throughput=147
+csv, R=34, p=8, m=256, ops=100000, time=2801114494659, throughput=35
+
+On 4pac machine:
+relaxed-transaction key/value store:
+csv, R=34, p=2, m=256, ops=100000, time=24862150414, throughput=4022
+csv, R=34, p=4, m=256, ops=100000, time=96933694260, throughput=1031
+csv, R=34, p=8, m=256, ops=100000, time=400506745632, throughput=249
+atomic-transaction key/value store:
+csv, R=34, p=2, m=256, ops=100000, time=54500601413, throughput=1834
+csv, R=34, p=4, m=256, ops=100000, time=265385396709, throughput=376
+csv, R=34, p=8, m=256, ops=100000, time=1494211190804, throughput=66
+
+From these tests, we can see that on sunlab machines, where software transaction
+algorithms are used in GCC TM, relaxed-transaction key/value store are consistently 
+better than our atomic transaction key/value store in terms of both latency
+and throughput. So in terms of the use of strings inside of transactions, its
+better to use relaxed_transactions instead of using atomic ones. 
+
+Extra credit:
+From previous tables, we can also find the contrast between the use of
+software transactions and the use of hardware transactions. When we use
+hardware transactions in HTM-support 4pac machines, and when workload is not
+long (i.e, the number of its operations are fewer than 10000),
+atomic-transaction key/value store plays better in terms of latency and
+performance only except the case where 8 threads are used. This indicates that
+HTM can substantially increase the performance of atomic key/value store.

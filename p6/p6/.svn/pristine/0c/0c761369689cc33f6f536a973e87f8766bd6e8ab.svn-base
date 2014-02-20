@@ -1,0 +1,12 @@
+
+This is the write-up for assignment # 6
+
+we designed the workload to constrast the performance of relaxed-transaction key/value store 
+with our atomic key/value store. The workload is in file HashBench.cpp in both
+task_1 and task_3 folders. Briefly speaking, we select 5 random characters from
+printable ASCII character set to construct random strings. and select random
+operations to perform according to the parameter R (i.e,, the read/write ratio).
+These strings are used as keys to be looked up in the hash table or inserted into or
+removed from the hash table.
+
+

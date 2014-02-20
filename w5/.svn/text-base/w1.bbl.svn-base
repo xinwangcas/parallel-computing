@@ -1,0 +1,29 @@
+\begin{thebibliography}{1}
+
+\bibitem{Attiya:1994:SCV:176575.176576}
+Hagit Attiya and Jennifer~L. Welch.
+\newblock Sequential consistency versus linearizability.
+\newblock {\em ACM Trans. Comput. Syst.}, 12(2):91--122, May 1994.
+
+\bibitem{Flanagan:2004:ADA:982962.964023}
+Cormac Flanagan and Stephen~N Freund.
+\newblock Atomizer: a dynamic atomicity checker for multithreaded programs.
+\newblock {\em SIGPLAN Not.}, 39(1):256--267, January 2004.
+
+\bibitem{guerraoui1997software}
+Rachid Guerraoui and Andr{\'e} Schiper.
+\newblock Software-based replication for fault tolerance.
+\newblock {\em Computer}, 30(4):68--74, 1997.
+
+\bibitem{herlihy1990linearizability}
+Maurice~P Herlihy and Jeannette~M Wing.
+\newblock Linearizability: A correctness condition for concurrent objects.
+\newblock {\em ACM Transactions on Programming Languages and Systems (TOPLAS)},
+  12(3):463--492, 1990.
+
+\bibitem{shavit1997software}
+Nir Shavit and Dan Touitou.
+\newblock Software transactional memory.
+\newblock {\em Distributed Computing}, 10(2):99--116, 1997.
+
+\end{thebibliography}

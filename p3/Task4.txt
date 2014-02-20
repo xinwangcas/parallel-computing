@@ -1,0 +1,34 @@
+The comparison among sequential/parallel_for/fork_join, different lookahead
+and different board size are shown in speedup_result.txt. We can oberserve that
+both larger board size and higher lookahead value cost longer run time. Since
+when lookahead is large, the run time is long, I use 1-5 lookahead as testing
+sample to demonstrate the effectiveness of parallelism. When the board size is less than or equal to 5*5 and the lookahead
+less than or equal to 3, the performance of
+parallelism is not obvious. When the board size is larger than 5*5 and the
+lookahead larger than 3, we can get
+2 to 4 times speed up when using parallel_for or fork_join, compared to
+sequential method. 
+I did find fork/join make programming easier, especially after
+I finished the logic of parallelism in parallel_for. Compared to parallel_for,
+fork/join does not need to use new class and its objects to transfer data, the node just need to spread tasks
+out to others. My fork_join code is to some extent similar to my
+parallel_for. I found all the possible moves of one state, then spread the
+possibilities to different nodes (with grainsize 1 move on each node) to calculate values and give back the evaluation of each move to the master, so that the play() function can compares these possibilities and
+determine the best move. My pruning part is done in alfa-beta-pruning. The
+work done by parallel_for and fork/join are necessary, they do not turn off
+unfruitful searches or limit the work.
+map+reduece or fork/join+hyperobjects are convenient int the way that commonly we do not
+need to detailly plan the workload of each node in advance, but we can spread
+workload continuously according to current state. Therefore, they tend to be
+the most natural way to solve the problem
+
+I am not sure if these are deficiencies, but I see other possibilities of my
+code. For example, in task 2, I used a vector to store all possible moves of
+the current state and spread these possible moves to different nodes to let
+them lookahead several steps and calculate the possible value of the move.
+One other possible mothod is to spread the whole gameboard to several parts
+(e.g. get_size() parts), and spread these parts to different nodes to let them
+find possible moves and evaluate these possibilities separately. In task 3, I
+spread the work to different node by a for loop, which is very similar to
+parallel_for. One other possibility is to use a loop to spread work out a little once a time
+and decide whether to go on spreading next time.

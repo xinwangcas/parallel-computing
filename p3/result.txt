@@ -1,0 +1,1890 @@
+Board size is: 4 x 4
+Current board:
+
+	1 2 3 4 
+
+   1	2 1 1 1 
+   2	2 2 1 1 
+   3	2 1 1 1 
+   4	2 2 2 2 
+
+Game over !
+Player 1 score: 8
+Player 2 score: 8
+Player 1 and Player 2 have TIED.
+time: 237349(ns)
+Board size is: 4 x 4
+Current board:
+
+	1 2 3 4 
+
+   1	2 1 1 1 
+   2	2 2 1 1 
+   3	2 1 1 1 
+   4	2 2 2 2 
+
+Game over !
+Player 1 score: 8
+Player 2 score: 8
+Player 1 and Player 2 have TIED.
+time: 1687566(ns)
+Board size is: 4 x 4
+Current board:
+
+	1 2 3 4 
+
+   1	2 1 1 1 
+   2	2 2 1 1 
+   3	2 1 1 1 
+   4	2 2 2 2 
+
+Game over !
+Player 1 score: 8
+Player 2 score: 8
+Player 1 and Player 2 have TIED.
+time: 1191995(ns)
+Board size is: 5 x 5
+Current board:
+
+	1 2 3 4 5 
+
+   1	2 2 2 2 1 
+   2	2 2 1 2 1 
+   3	1 1 2 1 1 
+   4	2 2 2 2 2 
+   5	2 2 2 2 2 
+
+Game over !
+Player 1 score: 7
+Player 2 score: 18
+Player 2 WINS!
+time: 937851(ns)
+Board size is: 5 x 5
+Current board:
+
+	1 2 3 4 5 
+
+   1	2 2 2 2 1 
+   2	2 2 1 2 1 
+   3	1 1 2 1 1 
+   4	2 2 2 2 2 
+   5	2 2 2 2 2 
+
+Game over !
+Player 1 score: 7
+Player 2 score: 18
+Player 2 WINS!
+time: 1245683(ns)
+Board size is: 5 x 5
+Current board:
+
+	1 2 3 4 5 
+
+   1	2 2 2 2 1 
+   2	2 2 1 2 1 
+   3	1 1 2 1 1 
+   4	2 2 2 2 2 
+   5	2 2 2 2 2 
+
+Game over !
+Player 1 score: 7
+Player 2 score: 18
+Player 2 WINS!
+time: 1292977(ns)
+Board size is: 6 x 6
+Current board:
+
+	1 2 3 4 5 6 
+
+   1	1 1 2 2 2 2 
+   2	1 1 2 1 2 2 
+   3	1 1 2 2 1 1 
+   4	1 2 2 2 1 1 
+   5	1 2 2 1 2 2 
+   6	1 1 2 2 2 2 
+
+Game over !
+Player 1 score: 16
+Player 2 score: 20
+Player 2 WINS!
+time: 4545743(ns)
+Board size is: 6 x 6
+Current board:
+
+	1 2 3 4 5 6 
+
+   1	1 1 2 2 2 2 
+   2	1 1 2 1 2 2 
+   3	1 1 2 2 1 1 
+   4	1 2 2 2 1 1 
+   5	1 2 2 1 2 2 
+   6	1 1 2 2 2 2 
+
+Game over !
+Player 1 score: 16
+Player 2 score: 20
+Player 2 WINS!
+time: 3887809(ns)
+Board size is: 6 x 6
+Current board:
+
+	1 2 3 4 5 6 
+
+   1	1 1 2 2 2 2 
+   2	1 1 2 1 2 2 
+   3	1 1 2 2 1 1 
+   4	1 2 2 2 1 1 
+   5	1 2 2 1 2 2 
+   6	1 1 2 2 2 2 
+
+Game over !
+Player 1 score: 16
+Player 2 score: 20
+Player 2 WINS!
+time: 3805115(ns)
+Board size is: 7 x 7
+Current board:
+
+	1 2 3 4 5 6 7 
+
+   1	2 2 2 2 2 2 2 
+   2	2 2 1 2 2 2 2 
+   3	2 2 1 2 2 2 2 
+   4	2 2 1 1 2 2 2 
+   5	2 2 2 1 1 1 2 
+   6	2 1 1 1 1 1 2 
+   7	1 1 1 1 2 1 1 
+
+Game over !
+Player 1 score: 18
+Player 2 score: 31
+Player 2 WINS!
+time: 6020061(ns)
+Board size is: 7 x 7
+Current board:
+
+	1 2 3 4 5 6 7 
+
+   1	2 2 2 2 2 2 2 
+   2	2 2 1 2 2 2 2 
+   3	2 2 1 2 2 2 2 
+   4	2 2 1 1 2 2 2 
+   5	2 2 2 1 1 1 2 
+   6	2 1 1 1 1 1 2 
+   7	1 1 1 1 2 1 1 
+
+Game over !
+Player 1 score: 18
+Player 2 score: 31
+Player 2 WINS!
+time: 4080998(ns)
+Board size is: 7 x 7
+Current board:
+
+	1 2 3 4 5 6 7 
+
+   1	2 2 2 2 2 2 2 
+   2	2 2 1 2 2 2 2 
+   3	2 2 1 2 2 2 2 
+   4	2 2 1 1 2 2 2 
+   5	2 2 2 1 1 1 2 
+   6	2 1 1 1 1 1 2 
+   7	1 1 1 1 2 1 1 
+
+Game over !
+Player 1 score: 18
+Player 2 score: 31
+Player 2 WINS!
+time: 3850037(ns)
+Board size is: 8 x 8
+Current board:
+
+	1 2 3 4 5 6 7 8 
+
+   1	1 1 2 2 2 2 2 2 
+   2	1 1 1 2 2 2 2 2 
+   3	1 2 1 1 1 1 2 2 
+   4	1 1 2 1 1 1 2 2 
+   5	1 1 1 1 1 2 1 1 
+   6	2 2 2 2 2 2 1 1 
+   7	2 2 2 2 2 2 1 1 
+   8	2 2 2 2 2 2 2 1 
+
+Game over !
+Player 1 score: 27
+Player 2 score: 37
+Player 2 WINS!
+time: 18977768(ns)
+Board size is: 8 x 8
+Current board:
+
+	1 2 3 4 5 6 7 8 
+
+   1	1 1 2 2 2 2 2 2 
+   2	1 1 1 2 2 2 2 2 
+   3	1 2 1 1 1 1 2 2 
+   4	1 1 2 1 1 1 2 2 
+   5	1 1 1 1 1 2 1 1 
+   6	2 2 2 2 2 2 1 1 
+   7	2 2 2 2 2 2 1 1 
+   8	2 2 2 2 2 2 2 1 
+
+Game over !
+Player 1 score: 27
+Player 2 score: 37
+Player 2 WINS!
+time: 7614202(ns)
+Board size is: 8 x 8
+Current board:
+
+	1 2 3 4 5 6 7 8 
+
+   1	1 1 2 2 2 2 2 2 
+   2	1 1 1 2 2 2 2 2 
+   3	1 2 1 1 1 1 2 2 
+   4	1 1 2 1 1 1 2 2 
+   5	1 1 1 1 1 2 1 1 
+   6	2 2 2 2 2 2 1 1 
+   7	2 2 2 2 2 2 1 1 
+   8	2 2 2 2 2 2 2 1 
+
+Game over !
+Player 1 score: 27
+Player 2 score: 37
+Player 2 WINS!
+time: 7724095(ns)
+Board size is: 9 x 9
+Current board:
+
+	1 2 3 4 5 6 7 8 9 
+
+   1	2 2 2 2 2 2 2 2 2 
+   2	2 2 1 1 1 2 2 2 2 
+   3	2 2 1 1 1 1 1 1 1 
+   4	2 2 1 1 1 1 2 1 1 
+   5	2 1 1 1 1 2 1 2 1 
+   6	1 1 1 1 1 2 2 1 1 
+   7	1 1 1 1 1 1 2 1 1 
+   8	1 1 1 1 2 1 1 1 2 
+   9	1 1 1 1 1 1 1 1 2 
+
+Game over !
+Player 1 score: 52
+Player 2 score: 29
+Player 1 WINS!
+time: 41453683(ns)
+Board size is: 9 x 9
+Current board:
+
+	1 2 3 4 5 6 7 8 9 
+
+   1	2 2 2 2 2 2 2 2 2 
+   2	2 2 1 1 1 2 2 2 2 
+   3	2 2 1 1 1 1 1 1 1 
+   4	2 2 1 1 1 1 2 1 1 
+   5	2 1 1 1 1 2 1 2 1 
+   6	1 1 1 1 1 2 2 1 1 
+   7	1 1 1 1 1 1 2 1 1 
+   8	1 1 1 1 2 1 1 1 2 
+   9	1 1 1 1 1 1 1 1 2 
+
+Game over !
+Player 1 score: 52
+Player 2 score: 29
+Player 1 WINS!
+time: 14542768(ns)
+Board size is: 9 x 9
+Current board:
+
+	1 2 3 4 5 6 7 8 9 
+
+   1	2 2 2 2 2 2 2 2 2 
+   2	2 2 1 1 1 2 2 2 2 
+   3	2 2 1 1 1 1 1 1 1 
+   4	2 2 1 1 1 1 2 1 1 
+   5	2 1 1 1 1 2 1 2 1 
+   6	1 1 1 1 1 2 2 1 1 
+   7	1 1 1 1 1 1 2 1 1 
+   8	1 1 1 1 2 1 1 1 2 
+   9	1 1 1 1 1 1 1 1 2 
+
+Game over !
+Player 1 score: 52
+Player 2 score: 29
+Player 1 WINS!
+time: 14334971(ns)
+Board size is: 10 x 10
+Current board:
+
+	1 2 3 4 5 6 7 8 9 10 
+
+   1	1 1 1 1 1 1 1 1 2 2 
+   2	2 1 1 2 2 1 1 1 2 2 
+   3	2 2 1 2 1 2 2 1 1 2 
+   4	2 2 2 1 2 2 1 1 1 2 
+   5	2 2 2 2 1 2 2 1 1 2 
+   6	2 2 1 2 2 1 1 2 1 2 
+   7	2 2 2 1 2 2 1 1 2 2 
+   8	2 1 2 2 2 2 2 1 2 2 
+   9	2 1 1 1 1 2 2 1 1 2 
+   10	2 1 1 1 1 2 1 1 1 1 
+
+Game over !
+Player 1 score: 47
+Player 2 score: 53
+Player 2 WINS!
+time: 113710089(ns)
+Board size is: 10 x 10
+Current board:
+
+	1 2 3 4 5 6 7 8 9 10 
+
+   1	1 1 1 1 1 1 1 1 2 2 
+   2	2 1 1 2 2 1 1 1 2 2 
+   3	2 2 1 2 1 2 2 1 1 2 
+   4	2 2 2 1 2 2 1 1 1 2 
+   5	2 2 2 2 1 2 2 1 1 2 
+   6	2 2 1 2 2 1 1 2 1 2 
+   7	2 2 2 1 2 2 1 1 2 2 
+   8	2 1 2 2 2 2 2 1 2 2 
+   9	2 1 1 1 1 2 2 1 1 2 
+   10	2 1 1 1 1 2 1 1 1 1 
+
+Game over !
+Player 1 score: 47
+Player 2 score: 53
+Player 2 WINS!
+time: 33499678(ns)
+Board size is: 10 x 10
+Current board:
+
+	1 2 3 4 5 6 7 8 9 10 
+
+   1	1 1 1 1 1 1 1 1 2 2 
+   2	2 1 1 2 2 1 1 1 2 2 
+   3	2 2 1 2 1 2 2 1 1 2 
+   4	2 2 2 1 2 2 1 1 1 2 
+   5	2 2 2 2 1 2 2 1 1 2 
+   6	2 2 1 2 2 1 1 2 1 2 
+   7	2 2 2 1 2 2 1 1 2 2 
+   8	2 1 2 2 2 2 2 1 2 2 
+   9	2 1 1 1 1 2 2 1 1 2 
+   10	2 1 1 1 1 2 1 1 1 1 
+
+Game over !
+Player 1 score: 47
+Player 2 score: 53
+Player 2 WINS!
+time: 33149243(ns)
+Board size is: 4 x 4
+Current board:
+
+	1 2 3 4 
+
+   1	0 1 1 2 
+   2	2 1 2 2 
+   3	2 2 1 1 
+   4	2 2 2 0 
+
+Game over !
+Player 1 score: 5
+Player 2 score: 9
+Player 2 WINS!
+time: 348082(ns)
+Board size is: 4 x 4
+Current board:
+
+	1 2 3 4 
+
+   1	0 1 1 2 
+   2	2 1 2 2 
+   3	2 2 1 1 
+   4	2 2 2 0 
+
+Game over !
+Player 1 score: 5
+Player 2 score: 9
+Player 2 WINS!
+time: 959378(ns)
+Board size is: 4 x 4
+Current board:
+
+	1 2 3 4 
+
+   1	0 1 1 2 
+   2	2 1 2 2 
+   3	2 2 1 1 
+   4	2 2 2 0 
+
+Game over !
+Player 1 score: 5
+Player 2 score: 9
+Player 2 WINS!
+time: 957571(ns)
+Board size is: 5 x 5
+Current board:
+
+	1 2 3 4 5 
+
+   1	2 2 2 1 1 
+   2	2 2 2 1 1 
+   3	1 1 2 1 1 
+   4	1 1 1 2 2 
+   5	1 1 1 2 2 
+
+Game over !
+Player 1 score: 14
+Player 2 score: 11
+Player 1 WINS!
+time: 2430907(ns)
+Board size is: 5 x 5
+Current board:
+
+	1 2 3 4 5 
+
+   1	2 2 2 1 1 
+   2	2 2 2 1 1 
+   3	1 1 2 1 1 
+   4	1 1 1 2 2 
+   5	1 1 1 2 2 
+
+Game over !
+Player 1 score: 14
+Player 2 score: 11
+Player 1 WINS!
+time: 2566733(ns)
+Board size is: 5 x 5
+Current board:
+
+	1 2 3 4 5 
+
+   1	2 2 2 1 1 
+   2	2 2 2 1 1 
+   3	1 1 2 1 1 
+   4	1 1 1 2 2 
+   5	1 1 1 2 2 
+
+Game over !
+Player 1 score: 14
+Player 2 score: 11
+Player 1 WINS!
+time: 2579626(ns)
+Board size is: 6 x 6
+Current board:
+
+	1 2 3 4 5 6 
+
+   1	2 2 2 2 2 2 
+   2	2 1 1 1 2 1 
+   3	1 1 1 2 1 1 
+   4	1 1 2 1 1 1 
+   5	2 2 1 2 1 1 
+   6	2 1 1 1 1 1 
+
+Game over !
+Player 1 score: 22
+Player 2 score: 14
+Player 1 WINS!
+time: 11324578(ns)
+Board size is: 6 x 6
+Current board:
+
+	1 2 3 4 5 6 
+
+   1	2 2 2 2 2 2 
+   2	2 1 1 1 2 1 
+   3	1 1 1 2 1 1 
+   4	1 1 2 1 1 1 
+   5	2 2 1 2 1 1 
+   6	2 1 1 1 1 1 
+
+Game over !
+Player 1 score: 22
+Player 2 score: 14
+Player 1 WINS!
+time: 4902613(ns)
+Board size is: 6 x 6
+Current board:
+
+	1 2 3 4 5 6 
+
+   1	2 2 2 2 2 2 
+   2	2 1 1 1 2 1 
+   3	1 1 1 2 1 1 
+   4	1 1 2 1 1 1 
+   5	2 2 1 2 1 1 
+   6	2 1 1 1 1 1 
+
+Game over !
+Player 1 score: 22
+Player 2 score: 14
+Player 1 WINS!
+time: 4987321(ns)
+Board size is: 7 x 7
+Current board:
+
+	1 2 3 4 5 6 7 
+
+   1	0 2 0 0 0 1 0 
+   2	2 2 2 2 2 1 2 
+   3	0 2 2 2 0 2 0 
+   4	2 2 2 2 2 2 2 
+   5	0 2 0 1 0 1 0 
+   6	2 2 1 1 1 1 2 
+   7	0 1 0 1 0 1 0 
+
+Game over !
+Player 1 score: 11
+Player 2 score: 22
+Player 2 WINS!
+time: 16487114(ns)
+Board size is: 7 x 7
+Current board:
+
+	1 2 3 4 5 6 7 
+
+   1	0 2 0 0 0 1 0 
+   2	2 2 2 2 2 1 2 
+   3	0 2 2 2 0 2 0 
+   4	2 2 2 2 2 2 2 
+   5	0 2 0 1 0 1 0 
+   6	2 2 1 1 1 1 2 
+   7	0 1 0 1 0 1 0 
+
+Game over !
+Player 1 score: 11
+Player 2 score: 22
+Player 2 WINS!
+time: 7697116(ns)
+Board size is: 7 x 7
+Current board:
+
+	1 2 3 4 5 6 7 
+
+   1	0 2 0 0 0 1 0 
+   2	2 2 2 2 2 1 2 
+   3	0 2 2 2 0 2 0 
+   4	2 2 2 2 2 2 2 
+   5	0 2 0 1 0 1 0 
+   6	2 2 1 1 1 1 2 
+   7	0 1 0 1 0 1 0 
+
+Game over !
+Player 1 score: 11
+Player 2 score: 22
+Player 2 WINS!
+time: 7875430(ns)
+Board size is: 8 x 8
+Current board:
+
+	1 2 3 4 5 6 7 8 
+
+   1	1 1 1 2 1 1 1 1 
+   2	1 1 2 2 2 1 1 1 
+   3	1 1 1 2 2 1 1 1 
+   4	2 2 2 2 1 1 1 2 
+   5	2 2 2 1 2 1 2 2 
+   6	2 2 2 2 2 2 2 0 
+   7	2 2 2 2 2 1 2 2 
+   8	2 2 2 2 2 2 2 2 
+
+Game over !
+Player 1 score: 24
+Player 2 score: 39
+Player 2 WINS!
+time: 48739474(ns)
+Board size is: 8 x 8
+Current board:
+
+	1 2 3 4 5 6 7 8 
+
+   1	1 1 1 2 1 1 1 1 
+   2	1 1 2 2 2 1 1 1 
+   3	1 1 1 2 2 1 1 1 
+   4	2 2 2 2 1 1 1 2 
+   5	2 2 2 1 2 1 2 2 
+   6	2 2 2 2 2 2 2 0 
+   7	2 2 2 2 2 1 2 2 
+   8	2 2 2 2 2 2 2 2 
+
+Game over !
+Player 1 score: 24
+Player 2 score: 39
+Player 2 WINS!
+time: 18780957(ns)
+Board size is: 8 x 8
+Current board:
+
+	1 2 3 4 5 6 7 8 
+
+   1	1 1 1 2 1 1 1 1 
+   2	1 1 2 2 2 1 1 1 
+   3	1 1 1 2 2 1 1 1 
+   4	2 2 2 2 1 1 1 2 
+   5	2 2 2 1 2 1 2 2 
+   6	2 2 2 2 2 2 2 0 
+   7	2 2 2 2 2 1 2 2 
+   8	2 2 2 2 2 2 2 2 
+
+Game over !
+Player 1 score: 24
+Player 2 score: 39
+Player 2 WINS!
+time: 18207868(ns)
+Board size is: 9 x 9
+Current board:
+
+	1 2 3 4 5 6 7 8 9 
+
+   1	2 2 1 1 2 2 2 1 2 
+   2	1 1 1 1 2 2 1 1 2 
+   3	1 1 2 2 1 1 1 1 2 
+   4	1 2 2 1 1 2 1 2 1 
+   5	1 1 2 1 2 2 2 2 1 
+   6	1 2 1 1 2 2 1 1 1 
+   7	1 1 1 1 2 2 1 1 1 
+   8	1 2 1 1 1 2 1 1 1 
+   9	2 1 1 1 1 1 1 1 1 
+
+Game over !
+Player 1 score: 52
+Player 2 score: 29
+Player 1 WINS!
+time: 109411516(ns)
+Board size is: 9 x 9
+Current board:
+
+	1 2 3 4 5 6 7 8 9 
+
+   1	2 2 1 1 2 2 2 1 2 
+   2	1 1 1 1 2 2 1 1 2 
+   3	1 1 2 2 1 1 1 1 2 
+   4	1 2 2 1 1 2 1 2 1 
+   5	1 1 2 1 2 2 2 2 1 
+   6	1 2 1 1 2 2 1 1 1 
+   7	1 1 1 1 2 2 1 1 1 
+   8	1 2 1 1 1 2 1 1 1 
+   9	2 1 1 1 1 1 1 1 1 
+
+Game over !
+Player 1 score: 52
+Player 2 score: 29
+Player 1 WINS!
+time: 39032635(ns)
+Board size is: 9 x 9
+Current board:
+
+	1 2 3 4 5 6 7 8 9 
+
+   1	2 2 1 1 2 2 2 1 2 
+   2	1 1 1 1 2 2 1 1 2 
+   3	1 1 2 2 1 1 1 1 2 
+   4	1 2 2 1 1 2 1 2 1 
+   5	1 1 2 1 2 2 2 2 1 
+   6	1 2 1 1 2 2 1 1 1 
+   7	1 1 1 1 2 2 1 1 1 
+   8	1 2 1 1 1 2 1 1 1 
+   9	2 1 1 1 1 1 1 1 1 
+
+Game over !
+Player 1 score: 52
+Player 2 score: 29
+Player 1 WINS!
+time: 37450356(ns)
+Board size is: 10 x 10
+Current board:
+
+	1 2 3 4 5 6 7 8 9 10 
+
+   1	1 1 1 1 1 1 1 1 2 2 
+   2	1 1 2 2 2 2 1 1 2 2 
+   3	1 1 1 2 2 1 1 2 1 2 
+   4	1 1 2 1 2 1 2 1 1 2 
+   5	1 2 1 2 1 2 2 1 1 2 
+   6	1 1 2 1 2 1 1 1 2 2 
+   7	1 1 1 1 1 1 1 2 2 2 
+   8	1 1 2 1 1 1 2 2 2 2 
+   9	1 1 1 1 1 2 1 2 2 2 
+   10	2 1 1 1 2 2 2 0 2 2 
+
+Game over !
+Player 1 score: 56
+Player 2 score: 43
+Player 1 WINS!
+time: 445750366(ns)
+Board size is: 10 x 10
+Current board:
+
+	1 2 3 4 5 6 7 8 9 10 
+
+   1	1 1 1 1 1 1 1 1 2 2 
+   2	1 1 2 2 2 2 1 1 2 2 
+   3	1 1 1 2 2 1 1 2 1 2 
+   4	1 1 2 1 2 1 2 1 1 2 
+   5	1 2 1 2 1 2 2 1 1 2 
+   6	1 1 2 1 2 1 1 1 2 2 
+   7	1 1 1 1 1 1 1 2 2 2 
+   8	1 1 2 1 1 1 2 2 2 2 
+   9	1 1 1 1 1 2 1 2 2 2 
+   10	2 1 1 1 2 2 2 0 2 2 
+
+Game over !
+Player 1 score: 56
+Player 2 score: 43
+Player 1 WINS!
+time: 127973596(ns)
+Board size is: 10 x 10
+Current board:
+
+	1 2 3 4 5 6 7 8 9 10 
+
+   1	1 1 1 1 1 1 1 1 2 2 
+   2	1 1 2 2 2 2 1 1 2 2 
+   3	1 1 1 2 2 1 1 2 1 2 
+   4	1 1 2 1 2 1 2 1 1 2 
+   5	1 2 1 2 1 2 2 1 1 2 
+   6	1 1 2 1 2 1 1 1 2 2 
+   7	1 1 1 1 1 1 1 2 2 2 
+   8	1 1 2 1 1 1 2 2 2 2 
+   9	1 1 1 1 1 2 1 2 2 2 
+   10	2 1 1 1 2 2 2 0 2 2 
+
+Game over !
+Player 1 score: 56
+Player 2 score: 43
+Player 1 WINS!
+time: 131615797(ns)
+Board size is: 4 x 4
+Current board:
+
+	1 2 3 4 
+
+   1	0 1 1 2 
+   2	2 1 2 2 
+   3	2 2 1 1 
+   4	2 2 2 0 
+
+Game over !
+Player 1 score: 5
+Player 2 score: 9
+Player 2 WINS!
+time: 655636(ns)
+Board size is: 4 x 4
+Current board:
+
+	1 2 3 4 
+
+   1	0 1 1 2 
+   2	2 1 2 2 
+   3	2 2 1 1 
+   4	2 2 2 0 
+
+Game over !
+Player 1 score: 5
+Player 2 score: 9
+Player 2 WINS!
+time: 1537108(ns)
+Board size is: 4 x 4
+Current board:
+
+	1 2 3 4 
+
+   1	0 1 1 2 
+   2	2 1 2 2 
+   3	2 2 1 1 
+   4	2 2 2 0 
+
+Game over !
+Player 1 score: 5
+Player 2 score: 9
+Player 2 WINS!
+time: 1259958(ns)
+Board size is: 5 x 5
+Current board:
+
+	1 2 3 4 5 
+
+   1	2 2 2 2 1 
+   2	2 2 2 2 1 
+   3	1 2 2 2 1 
+   4	1 1 2 2 1 
+   5	1 1 2 1 1 
+
+Game over !
+Player 1 score: 11
+Player 2 score: 14
+Player 2 WINS!
+time: 5352314(ns)
+Board size is: 5 x 5
+Current board:
+
+	1 2 3 4 5 
+
+   1	2 2 2 2 1 
+   2	2 2 2 2 1 
+   3	1 2 2 2 1 
+   4	1 1 2 2 1 
+   5	1 1 2 1 1 
+
+Game over !
+Player 1 score: 11
+Player 2 score: 14
+Player 2 WINS!
+time: 3419137(ns)
+Board size is: 5 x 5
+Current board:
+
+	1 2 3 4 5 
+
+   1	2 2 2 2 1 
+   2	2 2 2 2 1 
+   3	1 2 2 2 1 
+   4	1 1 2 2 1 
+   5	1 1 2 1 1 
+
+Game over !
+Player 1 score: 11
+Player 2 score: 14
+Player 2 WINS!
+time: 3436391(ns)
+Board size is: 6 x 6
+Current board:
+
+	1 2 3 4 5 6 
+
+   1	2 1 1 1 1 1 
+   2	2 2 2 2 1 1 
+   3	2 2 2 2 1 1 
+   4	2 1 2 2 1 1 
+   5	2 2 1 2 1 1 
+   6	2 1 1 1 1 1 
+
+Game over !
+Player 1 score: 20
+Player 2 score: 16
+Player 1 WINS!
+time: 58350633(ns)
+Board size is: 6 x 6
+Current board:
+
+	1 2 3 4 5 6 
+
+   1	2 1 1 1 1 1 
+   2	2 2 2 2 1 1 
+   3	2 2 2 2 1 1 
+   4	2 1 2 2 1 1 
+   5	2 2 1 2 1 1 
+   6	2 1 1 1 1 1 
+
+Game over !
+Player 1 score: 20
+Player 2 score: 16
+Player 1 WINS!
+time: 24300888(ns)
+Board size is: 6 x 6
+Current board:
+
+	1 2 3 4 5 6 
+
+   1	2 1 1 1 1 1 
+   2	2 2 2 2 1 1 
+   3	2 2 2 2 1 1 
+   4	2 1 2 2 1 1 
+   5	2 2 1 2 1 1 
+   6	2 1 1 1 1 1 
+
+Game over !
+Player 1 score: 20
+Player 2 score: 16
+Player 1 WINS!
+time: 22377117(ns)
+Board size is: 7 x 7
+Current board:
+
+	1 2 3 4 5 6 7 
+
+   1	1 2 2 2 2 2 2 
+   2	1 1 1 2 2 2 2 
+   3	1 1 1 1 1 1 2 
+   4	1 1 1 2 2 2 2 
+   5	1 1 1 1 1 1 2 
+   6	1 1 1 2 2 2 2 
+   7	1 1 1 2 2 2 2 
+
+Game over !
+Player 1 score: 25
+Player 2 score: 24
+Player 1 WINS!
+time: 60292884(ns)
+Board size is: 7 x 7
+Current board:
+
+	1 2 3 4 5 6 7 
+
+   1	1 2 2 2 2 2 2 
+   2	1 1 1 2 2 2 2 
+   3	1 1 1 1 1 1 2 
+   4	1 1 1 2 2 2 2 
+   5	1 1 1 1 1 1 2 
+   6	1 1 1 2 2 2 2 
+   7	1 1 1 2 2 2 2 
+
+Game over !
+Player 1 score: 25
+Player 2 score: 24
+Player 1 WINS!
+time: 27351712(ns)
+Board size is: 7 x 7
+Current board:
+
+	1 2 3 4 5 6 7 
+
+   1	1 2 2 2 2 2 2 
+   2	1 1 1 2 2 2 2 
+   3	1 1 1 1 1 1 2 
+   4	1 1 1 2 2 2 2 
+   5	1 1 1 1 1 1 2 
+   6	1 1 1 2 2 2 2 
+   7	1 1 1 2 2 2 2 
+
+Game over !
+Player 1 score: 25
+Player 2 score: 24
+Player 1 WINS!
+time: 25237644(ns)
+Board size is: 8 x 8
+Current board:
+
+	1 2 3 4 5 6 7 8 
+
+   1	1 1 1 1 2 2 1 1 
+   2	2 1 1 2 2 2 1 2 
+   3	2 2 1 1 1 2 2 2 
+   4	2 2 1 1 1 2 2 2 
+   5	2 2 1 2 1 2 2 2 
+   6	2 1 2 1 1 1 1 2 
+   7	2 2 1 1 1 1 1 2 
+   8	2 2 2 2 2 2 2 2 
+
+Game over !
+Player 1 score: 27
+Player 2 score: 37
+Player 2 WINS!
+time: 281387446(ns)
+Board size is: 8 x 8
+Current board:
+
+	1 2 3 4 5 6 7 8 
+
+   1	1 1 1 1 2 2 1 1 
+   2	2 1 1 2 2 2 1 2 
+   3	2 2 1 1 1 2 2 2 
+   4	2 2 1 1 1 2 2 2 
+   5	2 2 1 2 1 2 2 2 
+   6	2 1 2 1 1 1 1 2 
+   7	2 2 1 1 1 1 1 2 
+   8	2 2 2 2 2 2 2 2 
+
+Game over !
+Player 1 score: 27
+Player 2 score: 37
+Player 2 WINS!
+time: 95104046(ns)
+Board size is: 8 x 8
+Current board:
+
+	1 2 3 4 5 6 7 8 
+
+   1	1 1 1 1 2 2 1 1 
+   2	2 1 1 2 2 2 1 2 
+   3	2 2 1 1 1 2 2 2 
+   4	2 2 1 1 1 2 2 2 
+   5	2 2 1 2 1 2 2 2 
+   6	2 1 2 1 1 1 1 2 
+   7	2 2 1 1 1 1 1 2 
+   8	2 2 2 2 2 2 2 2 
+
+Game over !
+Player 1 score: 27
+Player 2 score: 37
+Player 2 WINS!
+time: 97016243(ns)
+Board size is: 9 x 9
+Current board:
+
+	1 2 3 4 5 6 7 8 9 
+
+   1	0 1 1 1 1 1 1 1 1 
+   2	2 2 2 2 2 1 1 1 1 
+   3	2 2 2 2 1 1 1 1 1 
+   4	2 2 2 2 2 2 1 2 2 
+   5	2 2 1 1 2 1 2 2 2 
+   6	2 2 2 1 1 2 2 2 2 
+   7	2 2 1 1 2 2 2 2 2 
+   8	2 1 2 2 2 2 2 2 2 
+   9	1 1 1 1 1 1 1 1 0 
+
+Game over !
+Player 1 score: 34
+Player 2 score: 45
+Player 2 WINS!
+time: 478025406(ns)
+Board size is: 9 x 9
+Current board:
+
+	1 2 3 4 5 6 7 8 9 
+
+   1	0 1 1 1 1 1 1 1 1 
+   2	2 2 2 2 2 1 1 1 1 
+   3	2 2 2 2 1 1 1 1 1 
+   4	2 2 2 2 2 2 1 2 2 
+   5	2 2 1 1 2 1 2 2 2 
+   6	2 2 2 1 1 2 2 2 2 
+   7	2 2 1 1 2 2 2 2 2 
+   8	2 1 2 2 2 2 2 2 2 
+   9	1 1 1 1 1 1 1 1 0 
+
+Game over !
+Player 1 score: 34
+Player 2 score: 45
+Player 2 WINS!
+time: 159932853(ns)
+Board size is: 9 x 9
+Current board:
+
+	1 2 3 4 5 6 7 8 9 
+
+   1	0 1 1 1 1 1 1 1 1 
+   2	2 2 2 2 2 1 1 1 1 
+   3	2 2 2 2 1 1 1 1 1 
+   4	2 2 2 2 2 2 1 2 2 
+   5	2 2 1 1 2 1 2 2 2 
+   6	2 2 2 1 1 2 2 2 2 
+   7	2 2 1 1 2 2 2 2 2 
+   8	2 1 2 2 2 2 2 2 2 
+   9	1 1 1 1 1 1 1 1 0 
+
+Game over !
+Player 1 score: 34
+Player 2 score: 45
+Player 2 WINS!
+time: 159497067(ns)
+Board size is: 10 x 10
+Current board:
+
+	1 2 3 4 5 6 7 8 9 10 
+
+   1	1 1 1 1 2 2 2 2 2 1 
+   2	2 1 1 1 2 2 2 2 2 2 
+   3	2 2 2 2 2 1 2 2 2 2 
+   4	2 1 1 1 2 1 1 2 2 2 
+   5	2 1 1 1 2 1 2 2 2 2 
+   6	2 1 1 1 2 2 1 1 2 1 
+   7	2 1 1 1 1 2 2 1 1 1 
+   8	2 2 2 2 2 1 2 1 2 1 
+   9	2 1 2 2 2 2 1 1 1 1 
+   10	2 2 2 2 2 1 1 1 1 1 
+
+Game over !
+Player 1 score: 44
+Player 2 score: 56
+Player 2 WINS!
+time: 3917961424(ns)
+Board size is: 10 x 10
+Current board:
+
+	1 2 3 4 5 6 7 8 9 10 
+
+   1	1 1 1 1 2 2 2 2 2 1 
+   2	2 1 1 1 2 2 2 2 2 2 
+   3	2 2 2 2 2 1 2 2 2 2 
+   4	2 1 1 1 2 1 1 2 2 2 
+   5	2 1 1 1 2 1 2 2 2 2 
+   6	2 1 1 1 2 2 1 1 2 1 
+   7	2 1 1 1 1 2 2 1 1 1 
+   8	2 2 2 2 2 1 2 1 2 1 
+   9	2 1 2 2 2 2 1 1 1 1 
+   10	2 2 2 2 2 1 1 1 1 1 
+
+Game over !
+Player 1 score: 44
+Player 2 score: 56
+Player 2 WINS!
+time: 1119443683(ns)
+Board size is: 10 x 10
+Current board:
+
+	1 2 3 4 5 6 7 8 9 10 
+
+   1	1 1 1 1 2 2 2 2 2 1 
+   2	2 1 1 1 2 2 2 2 2 2 
+   3	2 2 2 2 2 1 2 2 2 2 
+   4	2 1 1 1 2 1 1 2 2 2 
+   5	2 1 1 1 2 1 2 2 2 2 
+   6	2 1 1 1 2 2 1 1 2 1 
+   7	2 1 1 1 1 2 2 1 1 1 
+   8	2 2 2 2 2 1 2 1 2 1 
+   9	2 1 2 2 2 2 1 1 1 1 
+   10	2 2 2 2 2 1 1 1 1 1 
+
+Game over !
+Player 1 score: 44
+Player 2 score: 56
+Player 2 WINS!
+time: 1126541665(ns)
+Board size is: 4 x 4
+Current board:
+
+	1 2 3 4 
+
+   1	0 1 2 2 
+   2	2 1 2 1 
+   3	2 2 1 1 
+   4	2 2 2 0 
+
+Game over !
+Player 1 score: 5
+Player 2 score: 9
+Player 2 WINS!
+time: 1415594(ns)
+Board size is: 4 x 4
+Current board:
+
+	1 2 3 4 
+
+   1	0 1 2 2 
+   2	2 1 2 1 
+   3	2 2 1 1 
+   4	2 2 2 0 
+
+Game over !
+Player 1 score: 5
+Player 2 score: 9
+Player 2 WINS!
+time: 1678921(ns)
+Board size is: 4 x 4
+Current board:
+
+	1 2 3 4 
+
+   1	0 1 2 2 
+   2	2 1 2 1 
+   3	2 2 1 1 
+   4	2 2 2 0 
+
+Game over !
+Player 1 score: 5
+Player 2 score: 9
+Player 2 WINS!
+time: 1629322(ns)
+Board size is: 5 x 5
+Current board:
+
+	1 2 3 4 5 
+
+   1	2 2 2 2 1 
+   2	2 1 1 2 1 
+   3	1 1 2 2 1 
+   4	2 2 2 1 1 
+   5	2 1 1 1 1 
+
+Game over !
+Player 1 score: 13
+Player 2 score: 12
+Player 1 WINS!
+time: 12111958(ns)
+Board size is: 5 x 5
+Current board:
+
+	1 2 3 4 5 
+
+   1	2 2 2 2 1 
+   2	2 1 1 2 1 
+   3	1 1 2 2 1 
+   4	2 2 2 1 1 
+   5	2 1 1 1 1 
+
+Game over !
+Player 1 score: 13
+Player 2 score: 12
+Player 1 WINS!
+time: 6968661(ns)
+Board size is: 5 x 5
+Current board:
+
+	1 2 3 4 5 
+
+   1	2 2 2 2 1 
+   2	2 1 1 2 1 
+   3	1 1 2 2 1 
+   4	2 2 2 1 1 
+   5	2 1 1 1 1 
+
+Game over !
+Player 1 score: 13
+Player 2 score: 12
+Player 1 WINS!
+time: 6607261(ns)
+Board size is: 6 x 6
+Current board:
+
+	1 2 3 4 5 6 
+
+   1	1 1 1 1 1 1 
+   2	2 2 2 1 2 1 
+   3	2 2 2 2 2 2 
+   4	2 2 2 2 2 2 
+   5	2 2 2 2 2 2 
+   6	2 2 2 2 2 2 
+
+Game over !
+Player 1 score: 8
+Player 2 score: 28
+Player 2 WINS!
+time: 162760617(ns)
+Board size is: 6 x 6
+Current board:
+
+	1 2 3 4 5 6 
+
+   1	1 1 1 1 1 1 
+   2	2 2 2 1 2 1 
+   3	2 2 2 2 2 2 
+   4	2 2 2 2 2 2 
+   5	2 2 2 2 2 2 
+   6	2 2 2 2 2 2 
+
+Game over !
+Player 1 score: 8
+Player 2 score: 28
+Player 2 WINS!
+time: 60666981(ns)
+Board size is: 6 x 6
+Current board:
+
+	1 2 3 4 5 6 
+
+   1	1 1 1 1 1 1 
+   2	2 2 2 1 2 1 
+   3	2 2 2 2 2 2 
+   4	2 2 2 2 2 2 
+   5	2 2 2 2 2 2 
+   6	2 2 2 2 2 2 
+
+Game over !
+Player 1 score: 8
+Player 2 score: 28
+Player 2 WINS!
+time: 57660996(ns)
+Board size is: 7 x 7
+Current board:
+
+	1 2 3 4 5 6 7 
+
+   1	0 2 0 2 0 2 0 
+   2	2 2 2 1 2 1 1 
+   3	0 2 1 2 0 2 0 
+   4	2 1 2 2 2 2 2 
+   5	1 2 0 1 0 2 0 
+   6	2 2 2 2 2 1 2 
+   7	0 1 0 2 0 1 0 
+
+Game over !
+Player 1 score: 10
+Player 2 score: 25
+Player 2 WINS!
+time: 165160926(ns)
+Board size is: 7 x 7
+Current board:
+
+	1 2 3 4 5 6 7 
+
+   1	0 2 0 2 0 2 0 
+   2	2 2 2 1 2 1 1 
+   3	0 2 1 2 0 2 0 
+   4	2 1 2 2 2 2 2 
+   5	1 2 0 1 0 2 0 
+   6	2 2 2 2 2 1 2 
+   7	0 1 0 2 0 1 0 
+
+Game over !
+Player 1 score: 10
+Player 2 score: 25
+Player 2 WINS!
+time: 72308496(ns)
+Board size is: 7 x 7
+Current board:
+
+	1 2 3 4 5 6 7 
+
+   1	0 2 0 2 0 2 0 
+   2	2 2 2 1 2 1 1 
+   3	0 2 1 2 0 2 0 
+   4	2 1 2 2 2 2 2 
+   5	1 2 0 1 0 2 0 
+   6	2 2 2 2 2 1 2 
+   7	0 1 0 2 0 1 0 
+
+Game over !
+Player 1 score: 10
+Player 2 score: 25
+Player 2 WINS!
+time: 71977672(ns)
+Board size is: 8 x 8
+Current board:
+
+	1 2 3 4 5 6 7 8 
+
+   1	1 1 1 1 1 1 1 2 
+   2	1 1 1 1 1 2 2 2 
+   3	1 1 1 2 2 2 1 2 
+   4	1 1 1 2 2 1 1 2 
+   5	1 1 1 2 1 2 1 2 
+   6	1 1 2 2 1 2 1 2 
+   7	1 2 1 1 2 2 2 2 
+   8	2 2 2 2 2 2 2 2 
+
+Game over !
+Player 1 score: 33
+Player 2 score: 31
+Player 1 WINS!
+time: 1506830422(ns)
+Board size is: 8 x 8
+Current board:
+
+	1 2 3 4 5 6 7 8 
+
+   1	1 1 1 1 1 1 1 2 
+   2	1 1 1 1 1 2 2 2 
+   3	1 1 1 2 2 2 1 2 
+   4	1 1 1 2 2 1 1 2 
+   5	1 1 1 2 1 2 1 2 
+   6	1 1 2 2 1 2 1 2 
+   7	1 2 1 1 2 2 2 2 
+   8	2 2 2 2 2 2 2 2 
+
+Game over !
+Player 1 score: 33
+Player 2 score: 31
+Player 1 WINS!
+time: 478255411(ns)
+Board size is: 8 x 8
+Current board:
+
+	1 2 3 4 5 6 7 8 
+
+   1	1 1 1 1 1 1 1 2 
+   2	1 1 1 1 1 2 2 2 
+   3	1 1 1 2 2 2 1 2 
+   4	1 1 1 2 2 1 1 2 
+   5	1 1 1 2 1 2 1 2 
+   6	1 1 2 2 1 2 1 2 
+   7	1 2 1 1 2 2 2 2 
+   8	2 2 2 2 2 2 2 2 
+
+Game over !
+Player 1 score: 33
+Player 2 score: 31
+Player 1 WINS!
+time: 488894132(ns)
+Board size is: 9 x 9
+Current board:
+
+	1 2 3 4 5 6 7 8 9 
+
+   1	2 2 2 2 2 2 2 1 1 
+   2	2 2 2 2 1 2 2 1 1 
+   3	2 1 2 2 2 2 1 2 1 
+   4	2 1 1 2 2 1 2 2 1 
+   5	2 2 1 1 1 1 1 1 1 
+   6	2 2 2 1 1 2 1 1 1 
+   7	2 1 2 1 1 1 2 1 1 
+   8	2 1 1 1 1 1 2 2 2 
+   9	2 2 2 2 2 2 2 2 2 
+
+Game over !
+Player 1 score: 35
+Player 2 score: 46
+Player 2 WINS!
+time: 1557685096(ns)
+Board size is: 9 x 9
+Current board:
+
+	1 2 3 4 5 6 7 8 9 
+
+   1	2 2 2 2 2 2 2 1 1 
+   2	2 2 2 2 1 2 2 1 1 
+   3	2 1 2 2 2 2 1 2 1 
+   4	2 1 1 2 2 1 2 2 1 
+   5	2 2 1 1 1 1 1 1 1 
+   6	2 2 2 1 1 2 1 1 1 
+   7	2 1 2 1 1 1 2 1 1 
+   8	2 1 1 1 1 1 2 2 2 
+   9	2 2 2 2 2 2 2 2 2 
+
+Game over !
+Player 1 score: 35
+Player 2 score: 46
+Player 2 WINS!
+time: 563706972(ns)
+Board size is: 9 x 9
+Current board:
+
+	1 2 3 4 5 6 7 8 9 
+
+   1	2 2 2 2 2 2 2 1 1 
+   2	2 2 2 2 1 2 2 1 1 
+   3	2 1 2 2 2 2 1 2 1 
+   4	2 1 1 2 2 1 2 2 1 
+   5	2 2 1 1 1 1 1 1 1 
+   6	2 2 2 1 1 2 1 1 1 
+   7	2 1 2 1 1 1 2 1 1 
+   8	2 1 1 1 1 1 2 2 2 
+   9	2 2 2 2 2 2 2 2 2 
+
+Game over !
+Player 1 score: 35
+Player 2 score: 46
+Player 2 WINS!
+time: 562928515(ns)
+Board size is: 10 x 10
+Current board:
+
+	1 2 3 4 5 6 7 8 9 10 
+
+   1	1 1 1 1 1 1 1 1 1 1 
+   2	1 1 2 2 1 1 1 2 1 1 
+   3	1 2 2 1 1 1 2 1 2 1 
+   4	1 2 1 2 2 1 1 2 1 2 
+   5	1 1 2 2 2 1 1 1 2 2 
+   6	1 2 1 2 2 1 1 2 2 2 
+   7	1 1 1 1 2 1 1 2 2 2 
+   8	2 2 1 1 2 1 2 2 2 2 
+   9	2 2 1 1 2 2 2 2 2 2 
+   10	2 2 2 2 2 2 2 2 1 1 
+
+Game over !
+Player 1 score: 50
+Player 2 score: 50
+Player 1 and Player 2 have TIED.
+time: 15904238974(ns)
+Board size is: 10 x 10
+Current board:
+
+	1 2 3 4 5 6 7 8 9 10 
+
+   1	1 1 1 1 1 1 1 1 1 1 
+   2	1 1 2 2 1 1 1 2 1 1 
+   3	1 2 2 1 1 1 2 1 2 1 
+   4	1 2 1 2 2 1 1 2 1 2 
+   5	1 1 2 2 2 1 1 1 2 2 
+   6	1 2 1 2 2 1 1 2 2 2 
+   7	1 1 1 1 2 1 1 2 2 2 
+   8	2 2 1 1 2 1 2 2 2 2 
+   9	2 2 1 1 2 2 2 2 2 2 
+   10	2 2 2 2 2 2 2 2 1 1 
+
+Game over !
+Player 1 score: 50
+Player 2 score: 50
+Player 1 and Player 2 have TIED.
+time: 4540263553(ns)
+Board size is: 10 x 10
+Current board:
+
+	1 2 3 4 5 6 7 8 9 10 
+
+   1	1 1 1 1 1 1 1 1 1 1 
+   2	1 1 2 2 1 1 1 2 1 1 
+   3	1 2 2 1 1 1 2 1 2 1 
+   4	1 2 1 2 2 1 1 2 1 2 
+   5	1 1 2 2 2 1 1 1 2 2 
+   6	1 2 1 2 2 1 1 2 2 2 
+   7	1 1 1 1 2 1 1 2 2 2 
+   8	2 2 1 1 2 1 2 2 2 2 
+   9	2 2 1 1 2 2 2 2 2 2 
+   10	2 2 2 2 2 2 2 2 1 1 
+
+Game over !
+Player 1 score: 50
+Player 2 score: 50
+Player 1 and Player 2 have TIED.
+time: 4505743502(ns)
+Board size is: 4 x 4
+Current board:
+
+	1 2 3 4 
+
+   1	0 1 2 2 
+   2	2 1 2 1 
+   3	2 2 1 1 
+   4	2 2 2 0 
+
+Game over !
+Player 1 score: 5
+Player 2 score: 9
+Player 2 WINS!
+time: 2475416(ns)
+Board size is: 4 x 4
+Current board:
+
+	1 2 3 4 
+
+   1	0 1 2 2 
+   2	2 1 2 1 
+   3	2 2 1 1 
+   4	2 2 2 0 
+
+Game over !
+Player 1 score: 5
+Player 2 score: 9
+Player 2 WINS!
+time: 2693104(ns)
+Board size is: 4 x 4
+Current board:
+
+	1 2 3 4 
+
+   1	0 1 2 2 
+   2	2 1 2 1 
+   3	2 2 1 1 
+   4	2 2 2 0 
+
+Game over !
+Player 1 score: 5
+Player 2 score: 9
+Player 2 WINS!
+time: 2646489(ns)
+Board size is: 5 x 5
+Current board:
+
+	1 2 3 4 5 
+
+   1	1 1 1 2 2 
+   2	1 1 1 2 2 
+   3	1 1 2 1 2 
+   4	2 2 2 1 2 
+   5	2 2 2 2 1 
+
+Game over !
+Player 1 score: 11
+Player 2 score: 14
+Player 2 WINS!
+time: 24996701(ns)
+Board size is: 5 x 5
+Current board:
+
+	1 2 3 4 5 
+
+   1	1 1 1 2 2 
+   2	1 1 1 2 2 
+   3	1 1 2 1 2 
+   4	2 2 2 1 2 
+   5	2 2 2 2 1 
+
+Game over !
+Player 1 score: 11
+Player 2 score: 14
+Player 2 WINS!
+time: 14765458(ns)
+Board size is: 5 x 5
+Current board:
+
+	1 2 3 4 5 
+
+   1	1 1 1 2 2 
+   2	1 1 1 2 2 
+   3	1 1 2 1 2 
+   4	2 2 2 1 2 
+   5	2 2 2 2 1 
+
+Game over !
+Player 1 score: 11
+Player 2 score: 14
+Player 2 WINS!
+time: 13499317(ns)
+Board size is: 6 x 6
+Current board:
+
+	1 2 3 4 5 6 
+
+   1	2 2 2 2 2 2 
+   2	2 1 1 1 2 1 
+   3	1 1 1 2 2 1 
+   4	2 1 2 1 1 1 
+   5	2 2 1 2 1 1 
+   6	2 2 2 2 2 1 
+
+Game over !
+Player 1 score: 16
+Player 2 score: 20
+Player 2 WINS!
+time: 554035466(ns)
+Board size is: 6 x 6
+Current board:
+
+	1 2 3 4 5 6 
+
+   1	2 2 2 2 2 2 
+   2	2 1 1 1 2 1 
+   3	1 1 1 2 2 1 
+   4	2 1 2 1 1 1 
+   5	2 2 1 2 1 1 
+   6	2 2 2 2 2 1 
+
+Game over !
+Player 1 score: 16
+Player 2 score: 20
+Player 2 WINS!
+time: 212375641(ns)
+Board size is: 6 x 6
+Current board:
+
+	1 2 3 4 5 6 
+
+   1	2 2 2 2 2 2 
+   2	2 1 1 1 2 1 
+   3	1 1 1 2 2 1 
+   4	2 1 2 1 1 1 
+   5	2 2 1 2 1 1 
+   6	2 2 2 2 2 1 
+
+Game over !
+Player 1 score: 16
+Player 2 score: 20
+Player 2 WINS!
+time: 202539708(ns)
+Board size is: 7 x 7
+Current board:
+
+	1 2 3 4 5 6 7 
+
+   1	1 1 1 1 1 1 1 
+   2	1 1 2 2 2 1 1 
+   3	1 2 1 2 2 1 1 
+   4	1 2 2 2 2 1 2 
+   5	1 2 2 1 1 2 2 
+   6	1 1 2 1 2 2 2 
+   7	1 1 1 1 2 2 2 
+
+Game over !
+Player 1 score: 27
+Player 2 score: 22
+Player 1 WINS!
+time: 1137443596(ns)
+Board size is: 7 x 7
+Current board:
+
+	1 2 3 4 5 6 7 
+
+   1	1 1 1 1 1 1 1 
+   2	1 1 2 2 2 1 1 
+   3	1 2 1 2 2 1 1 
+   4	1 2 2 2 2 1 2 
+   5	1 2 2 1 1 2 2 
+   6	1 1 2 1 2 2 2 
+   7	1 1 1 1 2 2 2 
+
+Game over !
+Player 1 score: 27
+Player 2 score: 22
+Player 1 WINS!
+time: 383596826(ns)
+Board size is: 7 x 7
+Current board:
+
+	1 2 3 4 5 6 7 
+
+   1	1 1 1 1 1 1 1 
+   2	1 1 2 2 2 1 1 
+   3	1 2 1 2 2 1 1 
+   4	1 2 2 2 2 1 2 
+   5	1 2 2 1 1 2 2 
+   6	1 1 2 1 2 2 2 
+   7	1 1 1 1 2 2 2 
+
+Game over !
+Player 1 score: 27
+Player 2 score: 22
+Player 1 WINS!
+time: 382453086(ns)
+Board size is: 8 x 8
+Current board:
+
+	1 2 3 4 5 6 7 8 
+
+   1	1 1 1 1 1 1 1 2 
+   2	2 2 2 2 2 1 1 2 
+   3	2 2 2 2 2 2 1 2 
+   4	2 2 2 2 2 2 2 2 
+   5	2 2 2 2 2 1 2 2 
+   6	2 2 2 2 1 1 1 2 
+   7	2 2 2 2 1 1 1 2 
+   8	0 1 1 1 1 1 1 1 
+
+Game over !
+Player 1 score: 24
+Player 2 score: 39
+Player 2 WINS!
+time: 3295191388(ns)
+Board size is: 8 x 8
+Current board:
+
+	1 2 3 4 5 6 7 8 
+
+   1	1 1 1 1 1 1 1 2 
+   2	2 2 2 2 2 1 1 2 
+   3	2 2 2 2 2 2 1 2 
+   4	2 2 2 2 2 2 2 2 
+   5	2 2 2 2 2 1 2 2 
+   6	2 2 2 2 1 1 1 2 
+   7	2 2 2 2 1 1 1 2 
+   8	0 1 1 1 1 1 1 1 
+
+Game over !
+Player 1 score: 24
+Player 2 score: 39
+Player 2 WINS!
+time: 1155795024(ns)
+Board size is: 8 x 8
+Current board:
+
+	1 2 3 4 5 6 7 8 
+
+   1	1 1 1 1 1 1 1 2 
+   2	2 2 2 2 2 1 1 2 
+   3	2 2 2 2 2 2 1 2 
+   4	2 2 2 2 2 2 2 2 
+   5	2 2 2 2 2 1 2 2 
+   6	2 2 2 2 1 1 1 2 
+   7	2 2 2 2 1 1 1 2 
+   8	0 1 1 1 1 1 1 1 
+
+Game over !
+Player 1 score: 24
+Player 2 score: 39
+Player 2 WINS!
+time: 1213309464(ns)
+Board size is: 9 x 9
+Current board:
+
+	1 2 3 4 5 6 7 8 9 
+
+   1	1 1 2 2 2 2 2 2 2 
+   2	1 2 2 2 2 1 1 2 2 
+   3	1 2 1 2 1 1 1 1 2 
+   4	1 2 2 1 1 1 1 1 2 
+   5	1 1 1 1 1 1 1 2 2 
+   6	1 1 1 1 1 2 2 1 2 
+   7	1 2 1 1 1 2 2 2 2 
+   8	1 1 1 1 1 1 2 2 2 
+   9	1 1 1 1 1 1 1 2 2 
+
+Game over !
+Player 1 score: 47
+Player 2 score: 34
+Player 1 WINS!
+time: 14601502575(ns)
+Board size is: 9 x 9
+Current board:
+
+	1 2 3 4 5 6 7 8 9 
+
+   1	1 1 2 2 2 2 2 2 2 
+   2	1 2 2 2 2 1 1 2 2 
+   3	1 2 1 2 1 1 1 1 2 
+   4	1 2 2 1 1 1 1 1 2 
+   5	1 1 1 1 1 1 1 2 2 
+   6	1 1 1 1 1 2 2 1 2 
+   7	1 2 1 1 1 2 2 2 2 
+   8	1 1 1 1 1 1 2 2 2 
+   9	1 1 1 1 1 1 1 2 2 
+
+Game over !
+Player 1 score: 47
+Player 2 score: 34
+Player 1 WINS!
+time: 4551090041(ns)
+Board size is: 9 x 9
+Current board:
+
+	1 2 3 4 5 6 7 8 9 
+
+   1	1 1 2 2 2 2 2 2 2 
+   2	1 2 2 2 2 1 1 2 2 
+   3	1 2 1 2 1 1 1 1 2 
+   4	1 2 2 1 1 1 1 1 2 
+   5	1 1 1 1 1 1 1 2 2 
+   6	1 1 1 1 1 2 2 1 2 
+   7	1 2 1 1 1 2 2 2 2 
+   8	1 1 1 1 1 1 2 2 2 
+   9	1 1 1 1 1 1 1 2 2 
+
+Game over !
+Player 1 score: 47
+Player 2 score: 34
+Player 1 WINS!
+time: 4532718992(ns)
+Board size is: 10 x 10
+Current board:
+
+	1 2 3 4 5 6 7 8 9 10 
+
+   1	1 1 1 1 1 1 1 1 1 1 
+   2	1 2 2 2 2 2 2 2 2 1 
+   3	2 2 2 2 2 2 2 2 2 1 
+   4	2 2 2 2 2 2 2 2 2 1 
+   5	2 1 2 1 2 1 2 2 2 1 
+   6	2 1 1 2 2 2 1 1 1 1 
+   7	2 1 2 2 2 2 2 2 1 1 
+   8	2 1 2 1 2 2 1 2 1 1 
+   9	2 2 1 1 2 2 1 1 2 2 
+   10	2 2 2 2 2 2 2 2 2 2 
+
+Game over !
+Player 1 score: 36
+Player 2 score: 64
+Player 2 WINS!
+time: 31406712914(ns)
+Board size is: 10 x 10
+Current board:
+
+	1 2 3 4 5 6 7 8 9 10 
+
+   1	1 1 1 1 1 1 1 1 1 1 
+   2	1 2 2 2 2 2 2 2 2 1 
+   3	2 2 2 2 2 2 2 2 2 1 
+   4	2 2 2 2 2 2 2 2 2 1 
+   5	2 1 2 1 2 1 2 2 2 1 
+   6	2 1 1 2 2 2 1 1 1 1 
+   7	2 1 2 2 2 2 2 2 1 1 
+   8	2 1 2 1 2 2 1 2 1 1 
+   9	2 2 1 1 2 2 1 1 2 2 
+   10	2 2 2 2 2 2 2 2 2 2 
+
+Game over !
+Player 1 score: 36
+Player 2 score: 64
+Player 2 WINS!
+time: 10063231910(ns)
+Board size is: 10 x 10
+Current board:
+
+	1 2 3 4 5 6 7 8 9 10 
+
+   1	1 1 1 1 1 1 1 1 1 1 
+   2	1 2 2 2 2 2 2 2 2 1 
+   3	2 2 2 2 2 2 2 2 2 1 
+   4	2 2 2 2 2 2 2 2 2 1 
+   5	2 1 2 1 2 1 2 2 2 1 
+   6	2 1 1 2 2 2 1 1 1 1 
+   7	2 1 2 2 2 2 2 2 1 1 
+   8	2 1 2 1 2 2 1 2 1 1 
+   9	2 2 1 1 2 2 1 1 2 2 
+   10	2 2 2 2 2 2 2 2 2 2 
+
+Game over !
+Player 1 score: 36
+Player 2 score: 64
+Player 2 WINS!
+time: 9585250199(ns)

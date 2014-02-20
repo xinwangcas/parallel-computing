@@ -1,0 +1,108 @@
+ 
+csv, R=0, d=1, p=1, m=16, ops=32855, time=1000144818, throughput=32850
+ 
+csv, R=0, d=1, p=2, m=16, ops=16322, time=1000246906, throughput=16317
+ 
+csv, R=0, d=1, p=4, m=16, ops=15747, time=1000122888, throughput=15745
+ 
+csv, R=0, d=1, p=6, m=16, ops=16195, time=1001051008, throughput=16177
+ 
+csv, R=0, d=1, p=8, m=16, ops=15280, time=1001455459, throughput=15257
+ 
+csv, R=0, d=1, p=10, m=16, ops=15860, time=1001338199, throughput=15838
+ 
+csv, R=0, d=1, p=1, m=64, ops=30789, time=1283153103, throughput=23994
+ 
+csv, R=0, d=1, p=2, m=64, ops=16090, time=1000238731, throughput=16086
+ 
+csv, R=0, d=1, p=4, m=64, ops=15671, time=1000579976, throughput=15661
+ 
+csv, R=0, d=1, p=6, m=64, ops=15086, time=1000650824, throughput=15076
+ 
+csv, R=0, d=1, p=8, m=64, ops=15456, time=1001146578, throughput=15438
+ 
+csv, R=0, d=1, p=10, m=64, ops=15080, time=1000456044, throughput=15073
+ 
+csv, R=0, d=1, p=1, m=256, ops=32325, time=1000011464, throughput=32324
+ 
+csv, R=0, d=1, p=2, m=256, ops=16219, time=1000517316, throughput=16210
+ 
+csv, R=0, d=1, p=4, m=256, ops=16305, time=1000720443, throughput=16293
+ 
+csv, R=0, d=1, p=6, m=256, ops=16057, time=1000265196, throughput=16052
+ 
+csv, R=0, d=1, p=8, m=256, ops=15810, time=1001129594, throughput=15792
+ 
+csv, R=0, d=1, p=10, m=256, ops=14994, time=1001940511, throughput=14964
+ 
+csv, R=33, d=1, p=1, m=16, ops=48156, time=1000037024, throughput=48154
+ 
+csv, R=33, d=1, p=2, m=16, ops=23354, time=1000228210, throughput=23348
+ 
+csv, R=33, d=1, p=4, m=16, ops=24058, time=1000651588, throughput=24042
+ 
+csv, R=33, d=1, p=6, m=16, ops=23484, time=1001252315, throughput=23454
+ 
+csv, R=33, d=1, p=8, m=16, ops=23506, time=1000918077, throughput=23484
+ 
+csv, R=33, d=1, p=10, m=16, ops=23568, time=1000605893, throughput=23553
+ 
+csv, R=33, d=1, p=1, m=64, ops=46062, time=1336706045, throughput=34459
+ 
+csv, R=33, d=1, p=2, m=64, ops=24437, time=1000318460, throughput=24429
+ 
+csv, R=33, d=1, p=4, m=64, ops=22928, time=1000917047, throughput=22906
+ 
+csv, R=33, d=1, p=6, m=64, ops=22860, time=1000771271, throughput=22842
+ 
+csv, R=33, d=1, p=8, m=64, ops=21151, time=1002136275, throughput=21105
+ 
+csv, R=33, d=1, p=10, m=64, ops=22581, time=1000780598, throughput=22563
+ 
+csv, R=33, d=1, p=1, m=256, ops=40133, time=1000005567, throughput=40132
+ 
+csv, R=33, d=1, p=2, m=256, ops=24941, time=1000266095, throughput=24934
+ 
+csv, R=33, d=1, p=4, m=256, ops=21996, time=1000799034, throughput=21978
+ 
+csv, R=33, d=1, p=6, m=256, ops=23068, time=1000214119, throughput=23063
+ 
+csv, R=33, d=1, p=8, m=256, ops=22005, time=1000717757, throughput=21989
+ 
+csv, R=33, d=1, p=10, m=256, ops=22952, time=1091760302, throughput=21022
+ 
+csv, R=100, d=1, p=1, m=16, ops=1134757, time=1000003984, throughput=1134752
+ 
+csv, R=100, d=1, p=2, m=16, ops=1563904, time=1000002191, throughput=1563900
+ 
+csv, R=100, d=1, p=4, m=16, ops=2319987, time=1000003849, throughput=2319978
+ 
+csv, R=100, d=1, p=6, m=16, ops=2701967, time=1000004921, throughput=2701953
+ 
+csv, R=100, d=1, p=8, m=16, ops=2362659, time=1011156971, throughput=2336589
+ 
+csv, R=100, d=1, p=10, m=16, ops=1714062, time=1006879892, throughput=1702350
+ 
+csv, R=100, d=1, p=1, m=64, ops=1190468, time=1000004405, throughput=1190462
+ 
+csv, R=100, d=1, p=2, m=64, ops=1529383, time=1000002389, throughput=1529379
+ 
+csv, R=100, d=1, p=4, m=64, ops=1670975, time=1000003839, throughput=1670968
+ 
+csv, R=100, d=1, p=6, m=64, ops=2600548, time=1000013231, throughput=2600513
+ 
+csv, R=100, d=1, p=8, m=64, ops=2271406, time=1009071607, throughput=2250985
+ 
+csv, R=100, d=1, p=10, m=64, ops=1520403, time=1008522293, throughput=1507555
+ 
+csv, R=100, d=1, p=1, m=256, ops=737171, time=1000004144, throughput=737167
+ 
+csv, R=100, d=1, p=2, m=256, ops=1544754, time=1000003910, throughput=1544747
+ 
+csv, R=100, d=1, p=4, m=256, ops=2188755, time=1000005113, throughput=2188743
+ 
+csv, R=100, d=1, p=6, m=256, ops=2408622, time=1000003890, throughput=2408612
+ 
+csv, R=100, d=1, p=8, m=256, ops=2064157, time=1000006700, throughput=2064143
+ 
+csv, R=100, d=1, p=10, m=256, ops=1290402, time=1013815473, throughput=1272817
